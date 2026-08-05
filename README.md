@@ -1,4 +1,4 @@
-# We Can Use
+# We Can Use [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 **English** | [한국어](README.ko.md)
 
