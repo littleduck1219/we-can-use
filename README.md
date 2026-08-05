@@ -17,6 +17,16 @@
 | [학습·커뮤니티](docs/learning.md) | 공식 강좌, 가이드·블로그, 커뮤니티, 한국어 리소스 |
 | [큐레이션·디렉토리 사이트](docs/directories.md) | awesome 리스트, 탐색 사이트, 프롬프트 리소스, 벤치마크 |
 
+## 전체 카탈로그 (자동 수집)
+
+위 목차가 "선별한 추천"이라면, 아래는 GitHub 토픽 검색으로 **자동 수집한 전체 목록**입니다 (스타 10개 이상, 스타 순 정렬). GitHub Actions가 매주 월요일에 자동 갱신합니다.
+
+| 카탈로그 | 내용 |
+|------|------|
+| [MCP 서버](catalog/mcp-servers.md) | `mcp-server` 토픽의 모든 저장소 |
+| [Claude Code 생태계](catalog/claude-code.md) | `claude-code` 계열 토픽의 모든 저장소 |
+| [에이전트 스킬](catalog/agent-skills.md) | `claude-skills`·`agent-skills` 토픽의 모든 저장소 |
+
 ## 기여
 
 새 링크 추가는 PR로 환영합니다. 형식: 해당 카테고리 테이블에 `<tr><td><a href="url">Original Name</a></td><td>한국어 한 줄 설명</td></tr>` 행 추가. 실제 접속 확인된 링크만 추가해 주세요.
