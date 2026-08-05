@@ -24,6 +24,12 @@ MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 모음.
 <tr><td><a href="https://mcp.so">mcp.so</a></td><td>2만 개 이상의 MCP 서버를 모아둔 커뮤니티 기반 MCP 마켓플레이스</td></tr>
 <tr><td><a href="https://mcpmarket.com">MCP Market</a></td><td>카테고리별로 MCP 서버를 탐색할 수 있는 MCP 서버 마켓 사이트</td></tr>
 <tr><td><a href="https://hub.docker.com/mcp">Docker MCP Catalog</a></td><td>컨테이너화된 MCP 서버를 모아둔 Docker 공식 MCP 카탈로그</td></tr>
+<tr><td><a href="https://mcpservers.org/">MCP Servers (mcpservers.org)</a></td><td>Claude·Codex·Cursor 등에서 쓸 수 있는 9,800개 이상의 공식·커뮤니티 MCP 서버 카탈로그</td></tr>
+<tr><td><a href="https://composio.dev/toolkits/">Composio Toolkits</a></td><td>1,000개 이상의 SaaS 통합을 MCP 또는 API로 제공하는 Composio의 툴킷 디렉토리</td></tr>
+<tr><td><a href="https://mcp-awesome.com/">MCP Awesome</a></td><td>1,200개 이상의 품질 검증된 MCP 서버를 튜토리얼과 함께 제공하는 디렉토리</td></tr>
+<tr><td><a href="https://awesome-mcp.tools/">Awesome MCP Tools</a></td><td>awesome-mcp-servers 저장소를 6시간마다 재수집해 2,000개 이상의 서버를 보여주는 라이브 디렉토리</td></tr>
+<tr><td><a href="https://cline.bot/mcp-marketplace">Cline MCP Marketplace</a></td><td>Cline 에이전트용 MCP 서버를 원클릭 설치 형태로 제공하는 공식 마켓플레이스</td></tr>
+<tr><td><a href="https://modelscope.cn/mcp">ModelScope MCP</a></td><td>알리바바 ModelScope가 운영하는 중국 최대 규모의 MCP 서버 마켓플레이스</td></tr>
 </table>
 
 ## 큐레이션 리스트 (Curated Lists)

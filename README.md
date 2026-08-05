@@ -8,6 +8,7 @@
 
 | 문서 | 내용 |
 |------|------|
+| [지금 뜨는 프로젝트](docs/trending.md) | GitHub 스타 급등 중인 화제작 스냅샷 (ponytail, OpenClaw 등) |
 | [Claude Code 생태계](docs/claude-code.md) | 스킬, 플러그인, 서브에이전트, 훅, 마켓플레이스 |
 | [MCP](docs/mcp.md) | MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 |
 | [AI CLI·에디터 도구](docs/ai-cli-tools.md) | Codex, Copilot CLI, Cursor, Windsurf 등 도구와 확장 생태계 |

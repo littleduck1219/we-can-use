@@ -38,6 +38,12 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 <tr><td><a href="https://skillsmp.com/">SkillsMP</a></td><td>공개 GitHub 저장소의 Claude/Codex 스킬을 AI 검색으로 탐색하는 대형 스킬 마켓플레이스</td></tr>
 <tr><td><a href="https://claudemarketplaces.com/">Claude Marketplaces</a></td><td>플러그인·스킬·MCP 서버 마켓플레이스 디렉터리 사이트</td></tr>
 <tr><td><a href="https://github.com/jeremylongshore/claude-code-plugins-plus-skills">claude-code-plugins-plus-skills</a></td><td>471개 플러그인·3,000+ 스킬을 담은 오픈소스 마켓플레이스 (tonsofskills.com, ccpi CLI)</td></tr>
+<tr><td><a href="https://subagents.sh/">Subagents.sh</a></td><td>Claude Code 서브에이전트를 다운로드 순위와 함께 탐색·설치할 수 있는 전용 디렉토리</td></tr>
+<tr><td><a href="https://skillsclaude.org/skills">SkillsClaude</a></td><td>7,200개 이상의 Claude 스킬을 카테고리·신뢰도·태그별로 필터링해 탐색하는 스킬 디렉토리</td></tr>
+<tr><td><a href="https://claudeskills.info/">Claude Skills Hub</a></td><td>42,000개 이상의 SKILL.md를 수집한 서드파티 Claude 스킬 마켓플레이스</td></tr>
+<tr><td><a href="https://www.agentskill.club/">Agent Skill Club</a></td><td>3,600개 이상의 오픈소스 Claude 스킬을 카테고리별로 제공하는 무료 스킬 라이브러리</td></tr>
+<tr><td><a href="https://claude-plugins.dev/">Claude Plugins</a></td><td>다운로드 수와 설치 명령을 제공하는 커뮤니티 운영 Claude Code 플러그인 마켓플레이스</td></tr>
+<tr><td><a href="https://awesomeclaude.ai/">Awesome Claude</a></td><td>Claude 관련 도구·스킬·통합·학습 자료를 큐레이션한 종합 디렉토리</td></tr>
 </table>
 
 ## 서브에이전트 (Subagents)

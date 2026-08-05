@@ -50,3 +50,13 @@
 <tr><td><a href="https://www.tbench.ai/">Terminal-Bench</a></td><td>터미널 환경에서의 에이전트 작업 수행 능력을 평가하는 벤치마크 및 리더보드</td></tr>
 <tr><td><a href="https://openrouter.ai/rankings">OpenRouter Rankings</a></td><td>OpenRouter 실사용 트래픽 기반의 모델 사용량·카테고리별 점유율 랭킹</td></tr>
 </table>
+
+## 스킬·에이전트 레지스트리 (크로스 툴)
+
+<table width="100%">
+<tr><th width="340">링크</th><th>설명</th></tr>
+<tr><td><a href="https://lobehub.com/skills">LobeHub Skills</a></td><td>Claude·Codex·ChatGPT를 아우르는 크로스 플랫폼 에이전트 스킬 마켓플레이스</td></tr>
+<tr><td><a href="https://agentskillshub.dev/">AgentSkillsHub</a></td><td>보안 스캔을 거친 1,200개 이상의 에이전트 스킬을 큐레이션한 디렉토리 (Codex 스킬 가이드 포함)</td></tr>
+<tr><td><a href="https://codex-marketplace.com/">Codex Marketplace</a></td><td>OpenAI Codex 플러그인·스킬을 모은 비공식 커뮤니티 레지스트리 (플러그인 150개 이상)</td></tr>
+<tr><td><a href="https://openwebui.com/">Open WebUI Community</a></td><td>Open WebUI용 도구·펑션·프롬프트·모델 프리셋을 공유하는 커뮤니티 플랫폼</td></tr>
+</table>
