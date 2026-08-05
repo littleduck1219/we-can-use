@@ -1,6 +1,6 @@
-# Claude Code 생태계
+# 스킬·플러그인
 
-Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플레이스 모음.
+스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플레이스 모음. 스킬(SKILL.md)은 오픈 표준인 [Agent Skills](https://agentskills.io)를 따르기 때문에 Claude Code뿐 아니라 Codex, Gemini CLI 등 지원하는 도구 어디서나 쓸 수 있습니다. 훅·상태줄처럼 Claude Code 전용인 것은 설명에 표기했습니다.
 
 ## 공식 (Official)
 

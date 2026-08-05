@@ -11,7 +11,7 @@ import os
 import subprocess
 import time
 import urllib.request
-from datetime import date
+
 
 API = "https://api.github.com/search/repositories"
 MIN_STARS = 10
@@ -21,10 +21,9 @@ ROWS_PER_FILE = 1000
 # 카탈로그 정의: (파일 슬러그, 제목, 토픽 목록)
 CATALOGS = [
     ("mcp-servers", "MCP 서버 전체 카탈로그", ["mcp-server", "mcp-servers"]),
-    ("claude-code", "Claude Code 생태계 전체 카탈로그",
-     ["claude-code", "claude-code-plugin", "claude-code-plugins", "claude-code-subagents"]),
-    ("agent-skills", "에이전트 스킬 전체 카탈로그",
-     ["claude-skills", "claude-skill", "agent-skills", "agent-skill"]),
+    ("skills-plugins", "스킬·플러그인 전체 카탈로그",
+     ["claude-code", "claude-code-plugin", "claude-code-plugins", "claude-code-subagents",
+      "claude-skills", "claude-skill", "agent-skills", "agent-skill"]),
 ]
 
 
@@ -90,7 +89,6 @@ def fetch_topic(topic: str) -> dict:
 def write_catalog(slug: str, title: str, repos: list):
     os.makedirs("catalog", exist_ok=True)
     n_files = max(1, math.ceil(len(repos) / ROWS_PER_FILE))
-    today = date.today().isoformat()
     for i in range(n_files):
         chunk = repos[i * ROWS_PER_FILE:(i + 1) * ROWS_PER_FILE]
         path = f"catalog/{slug}.md" if i == 0 else f"catalog/{slug}-{i + 1}.md"
@@ -100,8 +98,6 @@ def write_catalog(slug: str, title: str, repos: list):
         )
         with open(path, "w") as f:
             f.write(f"# {title}\n\n")
-            f.write(f"GitHub 토픽 검색으로 자동 생성 (스타 {MIN_STARS}개 이상, 총 {len(repos)}개, {today} 기준). ")
-            f.write(f"직접 수정하지 마세요 — `scripts/collect.py`가 덮어씁니다.\n\n")
             if n_files > 1:
                 f.write(f"페이지: {nav}\n\n")
             f.write('<table width="100%">\n')
