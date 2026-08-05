@@ -11,6 +11,9 @@
 | [Claude Code 생태계](docs/claude-code.md) | 스킬, 플러그인, 서브에이전트, 훅, 마켓플레이스 |
 | [MCP](docs/mcp.md) | MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 |
 | [AI CLI·에디터 도구](docs/ai-cli-tools.md) | Codex, Copilot CLI, Cursor, Windsurf 등 도구와 확장 생태계 |
+| [에이전트 프레임워크·SDK](docs/agent-frameworks.md) | LangChain, CrewAI 등 프레임워크, 프로토콜, 관측·평가, 벡터DB |
+| [앱 빌더·로컬 LLM](docs/app-builders-local-llm.md) | v0, Lovable 등 vibe coding 플랫폼과 Ollama 등 로컬 LLM 도구 |
+| [학습·커뮤니티](docs/learning.md) | 공식 강좌, 가이드·블로그, 커뮤니티, 한국어 리소스 |
 | [큐레이션·디렉토리 사이트](docs/directories.md) | awesome 리스트, 탐색 사이트, 프롬프트 리소스, 벤치마크 |
 
 ## 기여

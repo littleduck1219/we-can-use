@@ -60,3 +60,55 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 <tr><td><a href="https://github.com/jqueryscript/awesome-claude-code">awesome-claude-code (jqueryscript)</a></td><td>IDE 통합·프레임워크 등 개발자 도구 중심의 Claude Code 리소스 리스트</td></tr>
 <tr><td><a href="https://github.com/rohitg00/awesome-claude-code-toolkit">awesome-claude-code-toolkit</a></td><td>에이전트 135개·플러그인 176개·훅 20개 등을 모은 종합 툴킷</td></tr>
 </table>
+
+## 보조 도구 (Companion Tools)
+
+<table width="100%">
+<tr><th width="340">링크</th><th>설명</th></tr>
+<tr><td><a href="https://github.com/ryoppippi/ccusage">ccusage</a></td><td>로컬 JSONL 데이터로 Claude Code 토큰 사용량과 비용을 분석하는 인기 CLI 도구</td></tr>
+<tr><td><a href="https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor">Claude Code Usage Monitor</a></td><td>실시간 사용량 추적과 한도 예측·경고를 제공하는 프라이버시 우선 모니터링 도구</td></tr>
+<tr><td><a href="https://github.com/sirmalloc/ccstatusline">ccstatusline</a></td><td>파워라인 지원과 테마를 갖춘 고도로 커스터마이즈 가능한 Claude Code 상태줄</td></tr>
+<tr><td><a href="https://github.com/Owloops/claude-powerline">claude-powerline</a></td><td>실시간 사용량·git 정보를 표시하는 vim 파워라인 스타일 상태줄</td></tr>
+<tr><td><a href="https://github.com/Haleclipse/CCometixLine">CCometixLine</a></td><td>모델·git·컨텍스트 윈도우 정보를 표시하는 Rust 기반 고성능 상태줄 도구</td></tr>
+<tr><td><a href="https://github.com/winfunc/opcode">opcode</a></td><td>커스텀 에이전트 생성과 세션 관리를 지원하는 데스크톱 GUI 앱 (구 Claudia, 22k+ 스타)</td></tr>
+<tr><td><a href="https://github.com/smtg-ai/claude-squad">claude-squad</a></td><td>Claude Code·Codex 등 여러 AI 터미널 에이전트를 격리된 워크스페이스에서 병렬 관리하는 TUI</td></tr>
+<tr><td><a href="https://github.com/siteboon/claudecodeui">Claude Code UI (CloudCLI)</a></td><td>모바일·웹에서 Claude Code 세션과 프로젝트를 원격 관리하는 오픈소스 웹 GUI</td></tr>
+<tr><td><a href="https://github.com/sugyan/claude-code-webui">claude-code-webui</a></td><td>스트리밍 채팅 응답을 지원하는 Claude CLI용 경량 웹 인터페이스</td></tr>
+<tr><td><a href="https://github.com/musistudio/claude-code-router">claude-code-router</a></td><td>Claude Code 요청을 다른 모델(로컬 포함)로 라우팅하는 컨트롤 플레인 (26k+ 스타)</td></tr>
+<tr><td><a href="https://github.com/ColeMurray/claude-code-otel">claude-code-otel</a></td><td>OpenTelemetry·Prometheus·Grafana 기반 사용량·성능·비용 관측 스택</td></tr>
+<tr><td><a href="https://github.com/TechNickAI/claude_telemetry">claude_telemetry</a></td><td>툴 호출·토큰·비용을 Logfire/Sentry/Datadog 등으로 보내는 OTel 래퍼</td></tr>
+<tr><td><a href="https://github.com/NikiforovAll/ccdashboard">ccdashboard</a></td><td>Claude Code 텔레메트리용 Grafana/Aspire 대시보드를 관리하는 CLI</td></tr>
+</table>
+
+## IDE·에디터 연동 (Editor Integrations)
+
+<table width="100%">
+<tr><th width="340">링크</th><th>설명</th></tr>
+<tr><td><a href="https://github.com/coder/claudecode.nvim">claudecode.nvim</a></td><td>Coder가 만든 Neovim용 Claude Code IDE 확장, WebSocket MCP 프로토콜 완전 구현</td></tr>
+<tr><td><a href="https://github.com/greggh/claude-code.nvim">claude-code.nvim</a></td><td>터미널 토글과 수정 파일 자동 리로드를 지원하는 Neovim 통합 플러그인</td></tr>
+<tr><td><a href="https://github.com/manzaltu/claude-code-ide.el">claude-code-ide.el</a></td><td>MCP 기반 양방향 브리지로 Emacs 기능을 Claude에 연결하는 IDE 통합</td></tr>
+<tr><td><a href="https://github.com/stevemolitor/claude-code.el">claude-code.el</a></td><td>Emacs에서 Claude Code CLI를 사용하는 인터페이스 패키지</td></tr>
+</table>
+
+## 설정·프레임워크 (Config & Frameworks)
+
+<table width="100%">
+<tr><th width="340">링크</th><th>설명</th></tr>
+<tr><td><a href="https://github.com/SuperClaude-Org/SuperClaude_Framework">SuperClaude Framework</a></td><td>전문 커맨드·인지 페르소나·개발 방법론으로 Claude Code를 확장하는 설정 프레임워크</td></tr>
+<tr><td><a href="https://github.com/centminmod/my-claude-code-setup">my-claude-code-setup</a></td><td>CLAUDE.md 메모리 뱅크 시스템을 포함한 공유 스타터 템플릿 설정</td></tr>
+<tr><td><a href="https://github.com/GWUDCAP/cc-sessions">cc-sessions</a></td><td>계획 승인 전 코드 수정을 차단하는 구조화된 워크플로우 강제 확장</td></tr>
+<tr><td><a href="https://github.com/ruvnet/ruflo">ruflo (구 claude-flow)</a></td><td>멀티 에이전트 스웜 오케스트레이션 메타 하네스, 적응형 메모리·RAG 통합 (59k+ 스타)</td></tr>
+<tr><td><a href="https://github.com/eyaltoledano/claude-task-master">Claude Task Master</a></td><td>PRD를 실행 가능한 개발 태스크로 자동 분해하는 AI 태스크 관리 시스템 (27k+ 스타)</td></tr>
+<tr><td><a href="https://github.com/EveryInc/compound-engineering-plugin">Compound Engineering Plugin</a></td><td>Every의 계획-구축-리뷰-학습 루프 공식 플러그인, 37개 스킬·51개 에이전트 포함 (21k+ 스타)</td></tr>
+</table>
+
+## 가이드·모음집 (Guides & Collections)
+
+<table width="100%">
+<tr><th width="340">링크</th><th>설명</th></tr>
+<tr><td><a href="https://github.com/zebbern/claude-code-guide">claude-code-guide</a></td><td>설치부터 커맨드·워크플로우·에이전트·스킬까지 다루는 초보자~파워유저 가이드</td></tr>
+<tr><td><a href="https://github.com/FlorianBruniaux/claude-code-ultimate-guide">claude-code-ultimate-guide</a></td><td>에이전트 팀 워크플로우 등 실전 패턴을 정리한 종합 가이드 저장소</td></tr>
+<tr><td><a href="https://github.com/vijaythecoder/awesome-claude-agents">awesome-claude-agents</a></td><td>기술 스택을 자동 감지해 전문 서브에이전트 팀을 구성하는 오케스트레이션 컬렉션</td></tr>
+<tr><td><a href="https://github.com/0xfurai/claude-code-subagents">claude-code-subagents</a></td><td>프로그래밍 도메인·프레임워크별 100개 이상의 전문 서브에이전트 컬렉션</td></tr>
+<tr><td><a href="https://claudelog.com/">ClaudeLog</a></td><td>Claude Code 메커니즘·설정·생태계 도구를 심층 분석하는 커뮤니티 지식 베이스</td></tr>
+</table>
