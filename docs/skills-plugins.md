@@ -10,6 +10,7 @@ Skills, plugins, subagents, hooks, and the marketplaces that distribute them. Sk
 
 - **[claude-code](https://github.com/anthropics/claude-code)** — Official Claude Code repository, including the official plugin-dev plugin.
 - **[skills](https://github.com/anthropics/skills)** — Anthropic's official Agent Skills repo: document editing, art, MCP server creation, and more.
+- **[claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** (33k★) — Official Anthropic-managed directory of high-quality Claude Code plugins.
 - **[claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** — Community plugin marketplace catalog maintained by Anthropic.
 - **[Docs: Skills](https://code.claude.com/docs/en/skills)** — Writing, managing, and sharing skills.
 - **[Docs: Plugins](https://code.claude.com/docs/en/plugins)** — Building plugins and publishing to marketplaces.
@@ -20,6 +21,12 @@ Skills, plugins, subagents, hooks, and the marketplaces that distribute them. Sk
 
 ## Skills
 
+- **[agent-skills (addyosmani)](https://github.com/addyosmani/agent-skills)** (82k★) — Production-grade engineering skills for AI coding agents.
+- **[taste-skill](https://github.com/Leonxlnx/taste-skill)** (72k★) — Gives your AI good taste: stops boring, generic slop output.
+- **[humanizer](https://github.com/blader/humanizer)** (34k★) — Removes signs of AI-generated writing from text.
+- **[scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** (33k★) — Turns any agent into an AI scientist; used by 170,000+ scientists.
+- **[marketingskills](https://github.com/coreyhaines31/marketingskills)** (43k★) — Marketing skills: CRO, copywriting, SEO, analytics, growth engineering.
+- **[awesome-agent-skills (VoltAgent)](https://github.com/VoltAgent/awesome-agent-skills)** (30k★) — 1,000+ agent skills from official teams and the community, cross-tool compatible.
 - **[awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** — Curated list of hand-picked Claude Skills, resources, and tools.
 - **[superpowers](https://github.com/obra/superpowers)** — Agent development methodology plugin built on composable skills: TDD, brainstorming, debugging.
 - **[superpowers-marketplace](https://github.com/obra/superpowers-marketplace)** — Curated marketplace distributing Superpowers-family plugins.
@@ -58,6 +65,8 @@ Skills, plugins, subagents, hooks, and the marketplaces that distribute them. Sk
 
 ## Companion Tools
 
+- **[claude-hud](https://github.com/jarrodwatts/claude-hud)** (27k★) — Plugin showing what's happening: context usage, active tools, running agents, todo progress.
+- **[cmux](https://github.com/manaflow-ai/cmux)** (26k★) — Ghostty-based macOS terminal with vertical tabs and notifications, built for multitasking AI agents.
 - **[ccusage](https://github.com/ryoppippi/ccusage)** — Popular CLI analyzing Claude Code token usage and costs from local JSONL.
 - **[Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)** — Real-time usage tracking, limit prediction, and alerts.
 - **[ccstatusline](https://github.com/sirmalloc/ccstatusline)** — Highly customizable status line with powerline support and themes.
@@ -81,6 +90,9 @@ Skills, plugins, subagents, hooks, and the marketplaces that distribute them. Sk
 
 ## Config & Frameworks
 
+- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** (67k★) — "The coding agent for tokenmaxxers": agent harness for complex codebases, for Codex and more.
+- **[get-shit-done](https://github.com/gsd-build/get-shit-done)** (65k★) — Lightweight meta-prompting, context engineering, and spec-driven development system.
+- **[oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** (38k★) — Teams-first multi-agent orchestration for Claude Code.
 - **[SuperClaude Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)** — Config framework adding specialized commands, personas, and methodologies.
 - **[my-claude-code-setup](https://github.com/centminmod/my-claude-code-setup)** — Starter template with a CLAUDE.md memory bank system.
 - **[cc-sessions](https://github.com/GWUDCAP/cc-sessions)** — Workflow enforcement: blocks code edits until plans are approved.
@@ -90,6 +102,8 @@ Skills, plugins, subagents, hooks, and the marketplaces that distribute them. Sk
 
 ## Guides & Collections
 
+- **[claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** (64k★) — From vibe coding to agentic engineering: practice makes Claude perfect.
+- **[claude-howto](https://github.com/luongnv89/claude-howto)** (41k★) — Visual, example-driven guide with copy-paste templates, from basics to advanced agents.
 - **[claude-code-guide](https://github.com/zebbern/claude-code-guide)** — Beginner-to-power-user guide: installation, commands, workflows, agents, skills.
 - **[claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)** — Practical patterns including agent team workflows.
 - **[awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents)** — Auto-detects your tech stack and assembles a team of subagents.

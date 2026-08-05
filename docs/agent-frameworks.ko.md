@@ -53,10 +53,16 @@ AI 앱·에이전트를 만들기 위한 SDK, 프레임워크, 프로토콜, 관
 - **[Weaviate](https://weaviate.io/)** — 벡터 검색·RAG·에이전트 메모리를 결합한 오픈소스 AI DB.
 - **[pgvector](https://github.com/pgvector/pgvector)** — PostgreSQL에서 벡터 유사도 검색을 하는 오픈소스 확장.
 - **[Mem0](https://mem0.ai/)** — 세션을 넘어 사용자를 기억하는 AI 에이전트용 메모리 레이어.
+- **[MemPalace](https://github.com/MemPalace/mempalace)** (58k★) — 벤치마크 검증이 가장 잘 된 무료 오픈소스 AI 메모리 시스템.
+- **[OpenViking](https://github.com/volcengine/OpenViking)** (28k★) — 에이전트 메모리·지식 RAG·스킬을 통합하는 자기 진화 컨텍스트 DB (Volcengine).
+- **[agentmemory](https://github.com/rohitg00/agentmemory)** (27k★) — 실전 벤치마크 기반 AI 코딩 에이전트용 영속 메모리.
+- **[beads](https://github.com/gastownhall/beads)** (26k★) — 코딩 에이전트를 위한 메모리 업그레이드.
 
 ## LLM 인프라
 
 - **[LiteLLM](https://github.com/BerriAI/litellm)** — 단일 OpenAI 형식 인터페이스로 100+ LLM 프로바이더를 호출하는 오픈소스 AI 게이트웨이.
+- **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** (40k★) — 무료 MIT AI 게이트웨이: 단일 엔드포인트로 290+ 프로바이더, 500+ 모델.
+- **[headroom](https://github.com/headroomlabs-ai/headroom)** (65k★) — 도구 출력·로그·파일·RAG 청크를 LLM에 닿기 전에 압축: 토큰 20%+ 절감.
 
 ---
 

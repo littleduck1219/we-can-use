@@ -8,6 +8,7 @@ A snapshot of AI coding ecosystem projects whose GitHub stars are surging. Refre
 
 ## Plugins & Skills
 
+- **[andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)** (200k★) — A single CLAUDE.md improving Claude Code behavior, derived from Karpathy's observations on LLM coding pitfalls.
 - **[ponytail](https://github.com/DietrichGebert/ponytail)** (96k★) — Makes AI agents code like "the laziest senior developer": YAGNI, stdlib-first, minimal diffs. Averages 54% less code.
 - **[caveman](https://github.com/JuliusBrussee/caveman)** (96k★) — "why use many token when few token do trick": cuts output tokens ~65% with caveman-speak. Often paired with ponytail.
 - **[claude-mem](https://github.com/thedotmack/claude-mem)** (90k★) — Persistent cross-session memory, auto-injected at session start. Works with Claude Code, Codex, Gemini.
@@ -18,11 +19,15 @@ A snapshot of AI coding ecosystem projects whose GitHub stars are surging. Refre
 
 ## AI Coding Agents & CLIs
 
+- **[ECC](https://github.com/affaan-m/ECC)** (238k★) — Agent harness performance optimization system: skills, instincts, memory, security, research-first development.
+- **[gstack](https://github.com/garrytan/gstack)** (126k★) — Garry Tan's exact Claude Code setup: 23 opinionated tools acting as CEO, Designer, Eng Manager, Release Manager.
 - **[OpenClaw](https://github.com/openclaw/openclaw)** (385k★) — "Your own 24/7 AI assistant": the fastest-growing project in GitHub history, breaking React's record in 60 days.
 - **[spec-kit](https://github.com/github/spec-kit)** (125k★) — GitHub's spec-driven development toolkit: write the spec, let agents implement it.
 - **[DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)** (31k★) — DeepSeek-native terminal coding agent; single Go binary built for cheap long-running sessions.
 - **[video-use](https://github.com/browser-use/video-use)** (19k★) — Edit video with Claude Code, from the browser-use team: drop footage in a folder, chat, get final.mp4.
 - **[Orca](https://github.com/stablyai/orca)** (38k★) — ADE for running a fleet of parallel coding agents in git worktrees; topped GitHub Trending through July 2026.
+- **[AionUi](https://github.com/iOfficeAI/AionUi)** (31k★) — Free, local, open-source 24/7 cowork app wrapping OpenClaw, Claude Code, Codex, Gemini CLI, and 20+ more CLI agents in one GUI.
+- **[grok-build](https://github.com/xai-org/grok-build)** (24k★) — SpaceXAI's coding agent harness and TUI: fullscreen, mouse-interactive, extensible. Released July 2026.
 
 ## MCP & Agent Infrastructure
 
@@ -33,6 +38,9 @@ A snapshot of AI coding ecosystem projects whose GitHub stars are surging. Refre
 
 ## Dev Utilities
 
+- **[autoresearch](https://github.com/karpathy/autoresearch)** (93k★) — Karpathy's AI agents autonomously running research on single-GPU nanochat training.
+- **[open-design](https://github.com/nexu-io/open-design)** (84k★) — Open-source Claude Design alternative: a local-first desktop app that turns your coding agent into a design engine.
+- **[agent-browser](https://github.com/vercel-labs/agent-browser)** (40k★) — Vercel Labs' browser automation CLI built for AI agents.
 - **[graphify](https://github.com/Graphify-Labs/graphify)** (103k★) — Turns any codebase — docs, SQL schemas, configs, PDFs — into a queryable knowledge graph for coding agents.
 - **[Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** (78k★) — Turns any code into an interactive knowledge graph you can explore and query in natural language.
 - **[pdf-inspector](https://github.com/firecrawl/pdf-inspector)** (10k★) — Rust PDF analysis from the Firecrawl team: OCR-free extraction and Markdown conversion.

@@ -53,10 +53,16 @@ SDKs, frameworks, protocols, observability and eval tools, and memory/RAG infras
 - **[Weaviate](https://weaviate.io/)** — Open-source AI database combining vector search, RAG, and agent memory.
 - **[pgvector](https://github.com/pgvector/pgvector)** — Vector similarity search extension for PostgreSQL.
 - **[Mem0](https://mem0.ai/)** — Memory layer for AI agents that remembers users across sessions.
+- **[MemPalace](https://github.com/MemPalace/mempalace)** (58k★) — The best-benchmarked open-source AI memory system, free.
+- **[OpenViking](https://github.com/volcengine/OpenViking)** (28k★) — Self-evolving context database unifying agent memory, knowledge RAG, and skills (Volcengine).
+- **[agentmemory](https://github.com/rohitg00/agentmemory)** (27k★) — Persistent memory for AI coding agents, benchmarked on real-world tasks.
+- **[beads](https://github.com/gastownhall/beads)** (26k★) — A memory upgrade for your coding agent.
 
 ## LLM Infrastructure
 
 - **[LiteLLM](https://github.com/BerriAI/litellm)** — Open-source AI gateway calling 100+ LLM providers through one OpenAI-format interface.
+- **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** (40k★) — Free MIT AI gateway: one endpoint, 290+ providers, 500+ models.
+- **[headroom](https://github.com/headroomlabs-ai/headroom)** (65k★) — Compresses tool outputs, logs, files, and RAG chunks before they reach the LLM: 20%+ fewer tokens.
 
 ---
 

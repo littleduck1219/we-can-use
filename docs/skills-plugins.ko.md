@@ -10,6 +10,7 @@
 
 - **[claude-code](https://github.com/anthropics/claude-code)** — Claude Code 공식 저장소. 공식 plugin-dev 플러그인 포함.
 - **[skills](https://github.com/anthropics/skills)** — Anthropic 공식 Agent Skills 저장소: 문서 편집, 아트, MCP 서버 제작 등 예제 스킬.
+- **[claude-plugins-official](https://github.com/anthropics/claude-plugins-official)** (33k★) — Anthropic이 직접 관리하는 고품질 Claude Code 플러그인 공식 디렉토리.
 - **[claude-plugins-community](https://github.com/anthropics/claude-plugins-community)** — Anthropic이 관리하는 커뮤니티 플러그인 마켓플레이스 카탈로그.
 - **[공식 문서: Skills](https://code.claude.com/docs/en/skills)** — 스킬 작성·관리·공유.
 - **[공식 문서: Plugins](https://code.claude.com/docs/en/plugins)** — 플러그인 제작과 마켓플레이스 배포.
@@ -20,6 +21,12 @@
 
 ## 스킬
 
+- **[agent-skills (addyosmani)](https://github.com/addyosmani/agent-skills)** (82k★) — AI 코딩 에이전트용 프로덕션급 엔지니어링 스킬 모음.
+- **[taste-skill](https://github.com/Leonxlnx/taste-skill)** (72k★) — AI에게 좋은 취향을 부여: 지루하고 뻔한 결과물 생성을 막는다.
+- **[humanizer](https://github.com/blader/humanizer)** (34k★) — 글에서 AI 생성 티를 지워주는 에이전트 스킬.
+- **[scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** (33k★) — 어떤 에이전트든 AI 과학자로 만드는 과학 분야 1위 스킬 라이브러리 (17만+ 과학자 사용).
+- **[marketingskills](https://github.com/coreyhaines31/marketingskills)** (43k★) — 마케팅 스킬: CRO, 카피라이팅, SEO, 분석, 그로스 엔지니어링.
+- **[awesome-agent-skills (VoltAgent)](https://github.com/VoltAgent/awesome-agent-skills)** (30k★) — 공식 팀·커뮤니티의 1,000+ 에이전트 스킬. 크로스 툴 호환.
 - **[awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** — 직접 선별한 Claude 스킬·리소스·도구 큐레이션 리스트.
 - **[superpowers](https://github.com/obra/superpowers)** — TDD, 브레인스토밍, 디버깅 등 조합 가능한 스킬 기반 에이전트 개발 방법론 플러그인.
 - **[superpowers-marketplace](https://github.com/obra/superpowers-marketplace)** — Superpowers 계열 플러그인을 배포하는 마켓플레이스.
@@ -58,6 +65,8 @@
 
 ## 보조 도구
 
+- **[claude-hud](https://github.com/jarrodwatts/claude-hud)** (27k★) — 컨텍스트 사용량, 활성 도구, 실행 중 에이전트, todo 진행 상황을 보여주는 플러그인.
+- **[cmux](https://github.com/manaflow-ai/cmux)** (26k★) — AI 에이전트 멀티태스킹용으로 만든 Ghostty 기반 macOS 터미널 (세로 탭·알림).
 - **[ccusage](https://github.com/ryoppippi/ccusage)** — 로컬 JSONL로 Claude Code 토큰 사용량·비용을 분석하는 인기 CLI.
 - **[Claude Code Usage Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor)** — 실시간 사용량 추적, 한도 예측, 알림.
 - **[ccstatusline](https://github.com/sirmalloc/ccstatusline)** — powerline 지원과 테마를 갖춘 커스터마이징 상태 줄.
@@ -81,6 +90,9 @@
 
 ## 설정 & 프레임워크
 
+- **[oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)** (67k★) — "토큰 아끼는 사람들을 위한 코딩 에이전트": 복잡한 코드베이스용 에이전트 하네스. Codex 등 지원.
+- **[get-shit-done](https://github.com/gsd-build/get-shit-done)** (65k★) — 경량 메타 프롬프팅·컨텍스트 엔지니어링·스펙 주도 개발 시스템.
+- **[oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)** (38k★) — 팀 우선 Claude Code 멀티 에이전트 오케스트레이션.
 - **[SuperClaude Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)** — 전문 명령·인지 페르소나·개발 방법론을 더하는 설정 프레임워크.
 - **[my-claude-code-setup](https://github.com/centminmod/my-claude-code-setup)** — CLAUDE.md 메모리 뱅크 시스템을 포함한 스타터 템플릿.
 - **[cc-sessions](https://github.com/GWUDCAP/cc-sessions)** — 계획 승인 전까지 코드 수정을 차단하는 워크플로 강제 확장.
@@ -90,6 +102,8 @@
 
 ## 가이드 & 모음
 
+- **[claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** (64k★) — vibe coding에서 에이전틱 엔지니어링으로: 실전 중심 모범 사례.
+- **[claude-howto](https://github.com/luongnv89/claude-howto)** (41k★) — 기초부터 고급 에이전트까지, 복붙 템플릿을 담은 시각적 예제 중심 가이드.
 - **[claude-code-guide](https://github.com/zebbern/claude-code-guide)** — 설치부터 명령·워크플로·에이전트·스킬까지 다루는 입문~고급 가이드.
 - **[claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide)** — 에이전트 팀 워크플로 등 실전 패턴을 정리한 종합 가이드.
 - **[awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents)** — 기술 스택을 자동 감지해 전문 서브에이전트 팀을 구성하는 오케스트레이션 모음.

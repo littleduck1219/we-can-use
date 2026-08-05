@@ -18,6 +18,7 @@ AI coding CLI agents beyond Claude Code, AI editors and IDEs, and each tool's ex
 - **[Crush](https://github.com/charmbracelet/crush)** — Glamorous TUI coding agent by Charm; supports OpenAI, Anthropic, Google, and more.
 - **[Goose](https://github.com/block/goose)** — Open-source local AI agent by Block, automating coding tasks with an extensible architecture.
 - **[Qwen Code](https://github.com/QwenLM/qwen-code)** — CLI coding agent from Alibaba's Qwen team, optimized for Qwen-Coder models.
+- **[grok-build](https://github.com/xai-org/grok-build)** (24k★) — SpaceXAI's coding agent harness and TUI: fullscreen, mouse-interactive, extensible.
 
 ## AI Editors & IDEs
 
@@ -37,6 +38,9 @@ Tools for running a fleet of coding agents side by side, each in its own isolate
 - **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** (28k★) — Kanban-board orchestration for coding agents: plan tasks, run agents in parallel, review visually. Community-maintained, Apache-2.0.
 - **[Conductor](https://conductor.build)** — Free Mac app running parallel Claude Code/Codex/Cursor agents in isolated workspaces, with Linear integration.
 - **[claude-squad](https://github.com/smtg-ai/claude-squad)** — TUI managing multiple AI agents (Claude Code, Codex, ...) in parallel isolated workspaces.
+- **[AionUi](https://github.com/iOfficeAI/AionUi)** (31k★) — Free, local, open-source 24/7 cowork GUI for OpenClaw, Claude Code, Codex, Gemini CLI, and 20+ more CLI agents.
+- **[multica](https://github.com/multica-ai/multica)** (44k★) — Open-source managed agents platform: turn coding agents into teammates — assign tasks, track progress.
+- **[Symphony](https://github.com/openai/symphony)** (26k★) — OpenAI's tool turning project work into isolated, autonomous implementation runs: manage work instead of supervising it.
 
 ## Per-Tool Extension & Rules Ecosystems
 

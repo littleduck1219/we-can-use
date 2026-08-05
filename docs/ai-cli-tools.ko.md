@@ -18,6 +18,7 @@ Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE, 그리고 각 
 - **[Crush](https://github.com/charmbracelet/crush)** — Charm의 화려한 TUI 코딩 에이전트. OpenAI, Anthropic, Google 등 지원.
 - **[Goose](https://github.com/block/goose)** — Block(Square)의 오픈소스 로컬 AI 에이전트. 확장 가능한 아키텍처.
 - **[Qwen Code](https://github.com/QwenLM/qwen-code)** — 알리바바 Qwen 팀의 CLI 코딩 에이전트. Qwen-Coder 모델에 최적화.
+- **[grok-build](https://github.com/xai-org/grok-build)** (24k★) — SpaceXAI의 코딩 에이전트 하네스·TUI: 풀스크린, 마우스 인터랙션, 확장 가능.
 
 ## AI 에디터 & IDE
 
@@ -37,6 +38,9 @@ Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE, 그리고 각 
 - **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** (28k★) — 칸반 보드로 코딩 에이전트를 오케스트레이션: 태스크 계획, 병렬 실행, 시각적 리뷰. 커뮤니티 유지보수, Apache-2.0.
 - **[Conductor](https://conductor.build)** — Claude Code/Codex/Cursor 에이전트를 격리 작업공간에서 병렬 실행하는 무료 맥 앱. Linear 연동.
 - **[claude-squad](https://github.com/smtg-ai/claude-squad)** — 여러 AI 에이전트(Claude Code, Codex 등)를 격리 작업공간에서 병렬 관리하는 TUI.
+- **[AionUi](https://github.com/iOfficeAI/AionUi)** (31k★) — OpenClaw, Claude Code, Codex, Gemini CLI 등 20+ CLI 에이전트용 무료 로컬 오픈소스 24/7 협업 GUI.
+- **[multica](https://github.com/multica-ai/multica)** (44k★) — 코딩 에이전트를 실제 팀원처럼 다루는 오픈소스 관리형 에이전트 플랫폼: 태스크 할당·진행 추적.
+- **[Symphony](https://github.com/openai/symphony)** (26k★) — 프로젝트 작업을 격리된 자율 구현 런으로 바꾸는 OpenAI 도구: 감독 대신 관리.
 
 ## 도구별 확장 & 규칙 생태계
 
