@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/affaan-m/ECC">affaan-m/ECC</a></td><td>⭐ 237,762</td><td>The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</td></tr>
 <tr><td><a href="https://github.com/NousResearch/hermes-agent">NousResearch/hermes-agent</a></td><td>⭐ 225,620</td><td>The agent that grows with you</td></tr>
 <tr><td><a href="https://github.com/anthropics/skills">anthropics/skills</a></td><td>⭐ 166,303</td><td>Public repository for Agent Skills</td></tr>

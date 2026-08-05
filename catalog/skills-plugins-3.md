@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/op7418/ai-desk-card">op7418/ai-desk-card</a></td><td>⭐ 136</td><td>桌面 AI 副屏 Skill：M5Paper 墨水屏 + AI Agent 推送 widget。装 Skill 后由 Agent 自动引导烧固件、配 Wi-Fi、推送内容。本地运行、无云依赖。</td></tr>
 <tr><td><a href="https://github.com/AgriciDaniel/wp-mcp-ultimate">AgriciDaniel/wp-mcp-ultimate</a></td><td>⭐ 136</td><td>WordPress MCP Ultimate — Full MCP server with 58 WordPress abilities. Connect WordPress to any AI via Model Context Protocol.</td></tr>
 <tr><td><a href="https://github.com/st0012/cctop">st0012/cctop</a></td><td>⭐ 136</td><td>A keyboard-first menubar app to monitor and jump between AI coding sessions — minimum setup required.</td></tr>

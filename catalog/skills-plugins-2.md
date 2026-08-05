@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/bitwize-music-studio/claude-ai-music-skills">bitwize-music-studio/claude-ai-music-skills</a></td><td>⭐ 400</td><td>Human + AI music production workflow for Suno - skills, templates, and tools</td></tr>
 <tr><td><a href="https://github.com/secondsky/sap-skills">secondsky/sap-skills</a></td><td>⭐ 399</td><td>Production-ready plugins for SAP development with AI coding assistants — BTP, CAP, Fiori, ABAP, HANA, Analytics Cloud, Datasphere, and more</td></tr>
 <tr><td><a href="https://github.com/shamspias/customizable-gpt-chatbot">shamspias/customizable-gpt-chatbot</a></td><td>⭐ 399</td><td>Veldra — talk an agent into existence, then watch it grow. A self-hostable, local-first agent platform: describe what you need in plain language and it compiles a working agent  tools, MCP, RAG, teams. The more you use it, the better it gets agents learn from your feedback and reshape as you talk.</td></tr>

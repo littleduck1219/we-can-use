@@ -1,9 +1,9 @@
-# MCP 서버 전체 카탈로그
+# Full MCP Server Catalog
 
-페이지: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
+Pages: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/xuio/ltspice-mcp">xuio/ltspice-mcp</a></td><td>⭐ 15</td><td>LTSpice MCP Server</td></tr>
 <tr><td><a href="https://github.com/Jevon-Zhong/Ai-doctor">Jevon-Zhong/Ai-doctor</a></td><td>⭐ 15</td><td>🧑‍⚕️ Ai智能医生聊天助手-这是一个前端基于Vue3、TS、后端基于Nest.js、MongoDB、Redis、Milvus并结合大模型、RAG等技术实现的医疗库智能问答系统，能结合大模型的生成能力和上传的专业医疗领域知识库针对提问给出专业回答。同时具备工具调用能力，可使用MCP集成网页爬取能力让大模型根据网址对应的医疗领域文章进行分析和输出。</td></tr>
 <tr><td><a href="https://github.com/MissionSquad/mcp-api">MissionSquad/mcp-api</a></td><td>⭐ 15</td><td>MCP Proxy Server. Streaming. Node/Python. OAuth w/ DCR.</td></tr>

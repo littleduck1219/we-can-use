@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/sunnnybala/Rstack">sunnnybala/Rstack</a></td><td>⭐ 68</td><td>Research automation skills for Claude Code. Idea to submittable paper in one session.</td></tr>
 <tr><td><a href="https://github.com/nahisaho/MUSUBI">nahisaho/MUSUBI</a></td><td>⭐ 68</td><td></td></tr>
 <tr><td><a href="https://github.com/christag/agency">christag/agency</a></td><td>⭐ 68</td><td>One dashboard for all your AI agents — manage teams across Claude Code, Codex, Gemini, Aider, and more. No database required.</td></tr>

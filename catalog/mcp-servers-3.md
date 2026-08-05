@@ -1,9 +1,9 @@
-# MCP 서버 전체 카탈로그
+# Full MCP Server Catalog
 
-페이지: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
+Pages: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/Teycir/Mcpwn">Teycir/Mcpwn</a></td><td>⭐ 30</td><td>Automated security scanner for Model Context Protocol servers that detects RCE, path traversal, prompt injection, and protocol vulnerabilities.</td></tr>
 <tr><td><a href="https://github.com/lightweight-component/aj-mcp">lightweight-component/aj-mcp</a></td><td>⭐ 30</td><td>Simple MCP SDK in Java</td></tr>
 <tr><td><a href="https://github.com/haymon-ai/dbmcp">haymon-ai/dbmcp</a></td><td>⭐ 30</td><td>Database MCP server for MySQL, MariaDB, PostgreSQL, and SQLite -  with builtin PII redaction and write-prevention</td></tr>

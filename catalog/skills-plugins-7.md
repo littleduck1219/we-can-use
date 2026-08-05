@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/jeonghwanko/mimi-seed-sdk">jeonghwanko/mimi-seed-sdk</a></td><td>⭐ 20</td><td>Claude Code MCP로 연결하는 인디 개발자 앱 출시 자동화 콘솔 — CLI + MCP Server (65+ 도구)</td></tr>
 <tr><td><a href="https://github.com/letsur-dev/claude-peak">letsur-dev/claude-peak</a></td><td>⭐ 20</td><td>Claude Max usage monitor for macOS menu bar</td></tr>
 <tr><td><a href="https://github.com/icedmoca/neura">icedmoca/neura</a></td><td>⭐ 20</td><td>Neura lets you run long, tool heavy coding sessions without blowing up token costs by compressing old context into references and only restoring exact data when needed, reducing hallucinations by grounding the model in real, retrievable source data instead of guesswork.</td></tr>

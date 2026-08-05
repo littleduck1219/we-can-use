@@ -1,9 +1,9 @@
-# MCP 서버 전체 카탈로그
+# Full MCP Server Catalog
 
-페이지: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
+Pages: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/3ddelano/gdai-mcp-plugin-godot">3ddelano/gdai-mcp-plugin-godot</a></td><td>⭐ 95</td><td>A MCP server integration for Godot Engine that allows Claude, Cursor, Windsurf, VSCode, etc to perform actions like creating scenes, resources, scripts, reading errors and much more.</td></tr>
 <tr><td><a href="https://github.com/Sharan-Kumar-R/Custom-MCP-Server">Sharan-Kumar-R/Custom-MCP-Server</a></td><td>⭐ 95</td><td>MCP server for scraping LinkedIn, Facebook, Instagram profiles and Google search.</td></tr>
 <tr><td><a href="https://github.com/VictoriaMetrics/mcp-victorialogs">VictoriaMetrics/mcp-victorialogs</a></td><td>⭐ 94</td><td>The implementation of Model Context Protocol (MCP) server for VictoriaLogs.</td></tr>

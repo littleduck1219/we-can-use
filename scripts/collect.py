@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""GitHub 토픽 검색으로 전체 카탈로그(catalog/*.md)를 생성한다.
+"""Generate the full catalogs (catalog/*.md) from GitHub topic search.
 
-사용: GITHUB_TOKEN 환경변수 또는 `gh auth token` 필요.
-Search API는 쿼리당 1000개 제한이 있어 스타 구간을 쪼개서 수집한다.
+Usage: requires the GITHUB_TOKEN env var or `gh auth token`.
+The Search API caps each query at 1000 results, so we split star ranges.
 """
 import html
 import json
@@ -18,10 +18,10 @@ MIN_STARS = 10
 MAX_STARS = 1_000_000
 ROWS_PER_FILE = 1000
 
-# 카탈로그 정의: (파일 슬러그, 제목, 토픽 목록)
+# Catalog definitions: (file slug, title, topic list)
 CATALOGS = [
-    ("mcp-servers", "MCP 서버 전체 카탈로그", ["mcp-server", "mcp-servers"]),
-    ("skills-plugins", "스킬·플러그인 전체 카탈로그",
+    ("mcp-servers", "Full MCP Server Catalog", ["mcp-server", "mcp-servers"]),
+    ("skills-plugins", "Full Skills & Plugins Catalog",
      ["claude-code", "claude-code-plugin", "claude-code-plugins", "claude-code-subagents",
       "claude-skills", "claude-skill", "agent-skills", "agent-skill"]),
 ]
@@ -32,7 +32,7 @@ def token() -> str:
     if not t:
         t = subprocess.run(["gh", "auth", "token"], capture_output=True, text=True).stdout.strip()
     if not t:
-        raise SystemExit("GITHUB_TOKEN이 없습니다")
+        raise SystemExit("GITHUB_TOKEN is missing")
     return t
 
 
@@ -50,18 +50,18 @@ def search(q: str, page: int = 1):
         try:
             with urllib.request.urlopen(req) as r:
                 data = json.load(r)
-            time.sleep(2.1)  # 인증 검색 한도 30req/min
+            time.sleep(2.1)  # authenticated search limit: 30 req/min
             return data
         except urllib.error.HTTPError as e:
-            if e.code in (403, 429):  # rate limit → 대기 후 재시도
+            if e.code in (403, 429):  # rate limit -> wait and retry
                 time.sleep(30 * (attempt + 1))
                 continue
             raise
-    raise SystemExit(f"검색 실패: {q}")
+    raise SystemExit(f"search failed: {q}")
 
 
 def fetch_topic(topic: str) -> dict:
-    """스타 구간을 이분할하며 1000개 제한을 우회해 전부 수집."""
+    """Collect everything by bisecting star ranges to bypass the 1000-result cap."""
     repos = {}
     stack = [(MIN_STARS, MAX_STARS)]
     while stack:
@@ -74,15 +74,15 @@ def fetch_topic(topic: str) -> dict:
             stack.append((lo, mid))
             stack.append((mid + 1, hi))
             continue
-        if total > 1000:  # 같은 스타 수에 1000개 초과 (사실상 없음)
-            print(f"  경고: {q} → {total}개, 상위 1000개만 수집")
+        if total > 1000:  # >1000 repos at one star count (practically never)
+            print(f"  warning: {q} -> {total} repos, collecting top 1000 only")
         pages = min(10, math.ceil(min(total, 1000) / 100))
         for item in first["items"]:
             repos[item["full_name"]] = item
         for p in range(2, pages + 1):
             for item in search(q, p)["items"]:
                 repos[item["full_name"]] = item
-        print(f"  {q} → {total}개")
+        print(f"  {q} -> {total} repos")
     return repos
 
 
@@ -99,15 +99,15 @@ def write_catalog(slug: str, title: str, repos: list):
         with open(path, "w") as f:
             f.write(f"# {title}\n\n")
             if n_files > 1:
-                f.write(f"페이지: {nav}\n\n")
+                f.write(f"Pages: {nav}\n\n")
             f.write('<table width="100%">\n')
-            f.write('<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>\n')
+            f.write('<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>\n')
             for r in chunk:
                 desc = html.escape(r["description"] or "").strip()
                 f.write(f'<tr><td><a href="{r["html_url"]}">{html.escape(r["full_name"])}</a></td>'
                         f'<td>⭐ {r["stargazers_count"]:,}</td><td>{desc}</td></tr>\n')
             f.write("</table>\n")
-    print(f"{slug}: {len(repos)}개 → {n_files}개 파일")
+    print(f"{slug}: {len(repos)} repos -> {n_files} files")
 
 
 def main():

@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/benabraham/claude-code-status-line">benabraham/claude-code-status-line</a></td><td>⭐ 15</td><td>Statusline script for Claude Code CLI – shows context and quota usage, model, git branch, pwd</td></tr>
 <tr><td><a href="https://github.com/ArunJRK/audit-flow">ArunJRK/audit-flow</a></td><td>⭐ 15</td><td>Claude Code skill for interactive system flow tracing across CODE, API, AUTH, DATA, NETWORK layers. SQLite persistence, Mermaid export, git merge driver.</td></tr>
 <tr><td><a href="https://github.com/cynco-labs/skills">cynco-labs/skills</a></td><td>⭐ 15</td><td>Malaysian accounting skill for Claude Code. Process client documents into accrual-basis financial statements, working papers, and tax computations.</td></tr>

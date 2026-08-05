@@ -1,9 +1,9 @@
-# MCP 서버 전체 카탈로그
+# Full MCP Server Catalog
 
-페이지: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
+Pages: [1](mcp-servers.md) · [2](mcp-servers-2.md) · [3](mcp-servers-3.md) · [4](mcp-servers-4.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/n8n-io/n8n">n8n-io/n8n</a></td><td>⭐ 199,379</td><td>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</td></tr>
 <tr><td><a href="https://github.com/google-gemini/gemini-cli">google-gemini/gemini-cli</a></td><td>⭐ 106,368</td><td>An open-source AI agent that brings the power of Gemini directly into your terminal.</td></tr>
 <tr><td><a href="https://github.com/koala73/worldmonitor">koala73/worldmonitor</a></td><td>⭐ 78,887</td><td>Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface</td></tr>

@@ -1,9 +1,9 @@
-# 스킬·플러그인 전체 카탈로그
+# Full Skills & Plugins Catalog
 
-페이지: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
+Pages: [1](skills-plugins.md) · [2](skills-plugins-2.md) · [3](skills-plugins-3.md) · [4](skills-plugins-4.md) · [5](skills-plugins-5.md) · [6](skills-plugins-6.md) · [7](skills-plugins-7.md) · [8](skills-plugins-8.md) · [9](skills-plugins-9.md) · [10](skills-plugins-10.md)
 
 <table width="100%">
-<tr><th width="340">저장소</th><th width="90">스타</th><th>설명</th></tr>
+<tr><th width="340">Repository</th><th width="90">Stars</th><th>Description</th></tr>
 <tr><td><a href="https://github.com/longhang2004/vietnamese-humanizer">longhang2004/vietnamese-humanizer</a></td><td>⭐ 42</td><td>Agent Skills and lightweight tools for clearer, more natural Vietnamese writing, translation cleanup, grammar checks, and style consistency.</td></tr>
 <tr><td><a href="https://github.com/panewslab/skills">panewslab/skills</a></td><td>⭐ 42</td><td>PANews Agent Toolkit is PANews&#x27;s official agent package for cryptocurrency and blockchain news discovery, creator workflows, and PANews web-page reading.</td></tr>
 <tr><td><a href="https://github.com/digitalinnovationone/dio-pro-vitalicio-week-2026-agentes-ia">digitalinnovationone/dio-pro-vitalicio-week-2026-agentes-ia</a></td><td>⭐ 41</td><td>DIO PRO Vitalício Week: Agentes de IA</td></tr>
