@@ -1,25 +1,54 @@
 # We Can Use
 
+**English** | [한국어](README.ko.md)
+
 > The things "we can use" in the AI coding ecosystem — skills, plugins, MCP servers, tools, and the sites that collect them.
 
-A link wiki organizing the fast-moving AI coding tool ecosystem by category. Each category offers **curated picks** (hand-selected) and a **full list** (auto-collected from GitHub, refreshed weekly).
+A link wiki organizing the fast-moving AI coding tool ecosystem by category. Each category offers **curated picks** (hand-selected) and, where available, a **full list** (auto-collected from GitHub, refreshed weekly).
 
-## Index
+### 🔥 [Trending Now](docs/trending.md)
 
-| Category | What's inside | Full list |
-|------|------|------|
-| [Trending Now](docs/trending.md) | Projects surging on GitHub right now (ponytail, OpenClaw, ...) | |
-| [Skills & Plugins](docs/skills-plugins.md) | Skills, plugins, subagents, hooks, marketplaces — usable in Claude Code, Codex, Gemini, and more | [10,000+](catalog/skills-plugins.md) |
-| [MCP](docs/mcp.md) | MCP servers, directories & registries, curated lists | [3,700+](catalog/mcp-servers.md) |
-| [AI CLI Tools & Editors](docs/ai-cli-tools.md) | Codex, Copilot CLI, Cursor, Windsurf, and each tool's extension ecosystem | |
-| [Agent Frameworks & SDKs](docs/agent-frameworks.md) | Frameworks like LangChain and CrewAI, protocols, observability & evals, vector DBs | |
-| [App Builders & Local LLM](docs/app-builders-local-llm.md) | Vibe coding platforms like v0 and Lovable, local LLM tools like Ollama | |
-| [Learning & Communities](docs/learning.md) | Official courses, guides & blogs, communities, Korean resources | |
-| [Curation & Directory Sites](docs/directories.md) | Awesome lists, discovery sites, prompt resources, benchmarks | |
+Projects surging on GitHub right now.
+→ ponytail · OpenClaw · spec-kit · claude-mem · FastMCP
+
+### 🧩 [Skills & Plugins](docs/skills-plugins.md) — [full list: 10,000+](catalog/skills-plugins.md)
+
+Skills, plugins, subagents, hooks, and marketplaces — for Claude Code, Codex, Gemini, and more.
+→ superpowers · claude-code-templates · wshobson/agents · ccusage
+
+### 🔌 [MCP](docs/mcp.md) — [full list: 3,700+](catalog/mcp-servers.md)
+
+MCP servers, directories & registries, and curated lists.
+→ GitHub MCP · Playwright MCP · Context7 · Smithery · PulseMCP
+
+### ⌨️ [AI CLI Tools & Editors](docs/ai-cli-tools.md)
+
+CLI coding agents, AI editors and IDEs, and each tool's extension ecosystem.
+→ Codex CLI · Copilot CLI · Cursor · Windsurf · Aider · OpenCode
+
+### 🤖 [Agent Frameworks & SDKs](docs/agent-frameworks.md)
+
+SDKs, frameworks, protocols, observability & evals, and memory/RAG infrastructure.
+→ Claude Agent SDK · LangChain · LangGraph · CrewAI · LiteLLM
+
+### 🏗️ [App Builders & Local LLMs](docs/app-builders-local-llm.md)
+
+Vibe coding platforms and tools for running open models locally.
+→ v0 · Lovable · Bolt.new · Ollama · LM Studio · vLLM
+
+### 📚 [Learning & Communities](docs/learning.md)
+
+Official courses, guides & blogs, communities, and Korean resources.
+→ Anthropic Academy · DeepLearning.AI · r/ClaudeAI · GeekNews
+
+### 🗂️ [Curation & Directory Sites](docs/directories.md)
+
+Awesome lists, discovery sites, prompt resources, and benchmarks.
+→ awesome-ai-agents · There's An AI For That · LMArena · SWE-bench
 
 ## Contributing
 
-PRs adding new links are welcome. Format: add a `<tr><td><a href="url">Original Name</a></td><td>One-line description</td></tr>` row to the relevant category table. Please only add links you have verified are live. `catalog/` is auto-generated and not a PR target.
+PRs adding new links are welcome. Format: add a `- **[Original Name](url)** — one-line description.` bullet to the relevant section. Please only add links you have verified are live. `catalog/` is auto-generated and not a PR target.
 
 ## License
 

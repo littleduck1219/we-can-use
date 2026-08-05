@@ -1,45 +1,44 @@
 # AI CLI Tools & Editors
 
-A collection of AI coding CLI agents beyond Claude Code, AI editors and IDEs, and each tool's extension and rules ecosystem.
+**English** | [한국어](ai-cli-tools.ko.md)
+
+AI coding CLI agents beyond Claude Code, AI editors and IDEs, and each tool's extension and rules ecosystem.
+
+**Sections:** [CLI Agents](#cli-agents) · [AI Editors & IDEs](#ai-editors--ides) · [Extension & Rules Ecosystems](#per-tool-extension--rules-ecosystems)
 
 ## CLI Agents
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/openai/codex">OpenAI Codex CLI</a></td><td>OpenAI's open-source (Apache-2.0) terminal coding agent, a CLI tool focused on sandboxed execution and safety</td></tr>
-<tr><td><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></td><td>GitHub's official CLI bringing the Copilot coding agent to the terminal, reaching general availability (GA) in February 2026</td></tr>
-<tr><td><a href="https://antigravity.google/docs/cli/overview">Antigravity CLI</a></td><td>Google's Go-based terminal agent (`agy`) that replaced Gemini CLI in June 2026, with support for multi-agent background workflows</td></tr>
-<tr><td><a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a></td><td>Google's open-source terminal AI agent (legacy), still functional for paid API key and Code Assist Standard/Enterprise users</td></tr>
-<tr><td><a href="https://aider.chat">Aider</a></td><td>Community-driven open-source terminal pair programming tool, notable for git integration and broad LLM support</td></tr>
-<tr><td><a href="https://github.com/sst/opencode">OpenCode</a></td><td>The largest open-source CLI coding agent as of 2026 (~160k stars), with a polished TUI and wide model provider support</td></tr>
-<tr><td><a href="https://ampcode.com">Amp</a></td><td>Agentic coding tool by Sourcegraph, running in the CLI and VS Code-family editors, with thread sharing</td></tr>
-<tr><td><a href="https://github.com/charmbracelet/crush">Crush</a></td><td>Glamorous TUI-based terminal coding agent by Charm, supporting multiple providers including OpenAI, Anthropic, and Google</td></tr>
-<tr><td><a href="https://github.com/block/goose">Goose</a></td><td>Open-source local AI agent developed by Block (Square), automating coding tasks with an extensible architecture</td></tr>
-<tr><td><a href="https://github.com/QwenLM/qwen-code">Qwen Code</a></td><td>CLI coding agent from Alibaba's Qwen team, providing a terminal workflow optimized for Qwen-Coder models</td></tr>
-</table>
+- **[OpenAI Codex CLI](https://github.com/openai/codex)** — OpenAI's open-source terminal coding agent, focused on sandboxed execution and safety.
+- **[GitHub Copilot CLI](https://github.com/github/copilot-cli)** — GitHub's official CLI bringing the Copilot coding agent to the terminal (GA since Feb 2026).
+- **[Antigravity CLI](https://antigravity.google/docs/cli/overview)** — Google's Go-based terminal agent (`agy`) replacing Gemini CLI, with multi-agent background workflows.
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — Google's open-source terminal AI agent (legacy), still works with paid API keys and Code Assist.
+- **[Aider](https://aider.chat)** — Community open-source terminal pair programming tool; strong git integration and broad LLM support.
+- **[OpenCode](https://github.com/sst/opencode)** (160k★) — The largest open-source CLI coding agent, with a polished TUI and wide provider support.
+- **[Amp](https://ampcode.com)** — Agentic coding tool by Sourcegraph for CLI and VS Code-family editors, with thread sharing.
+- **[Crush](https://github.com/charmbracelet/crush)** — Glamorous TUI coding agent by Charm; supports OpenAI, Anthropic, Google, and more.
+- **[Goose](https://github.com/block/goose)** — Open-source local AI agent by Block, automating coding tasks with an extensible architecture.
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — CLI coding agent from Alibaba's Qwen team, optimized for Qwen-Coder models.
 
 ## AI Editors & IDEs
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://cursor.com">Cursor</a></td><td>Leading AI-native code editor built on a VS Code fork, with agent mode, rules (.cursorrules), and MCP support</td></tr>
-<tr><td><a href="https://windsurf.com">Windsurf</a></td><td>AI IDE acquired by Cognition (maker of Devin), with the Cascade agent and privacy-first design including zero data retention</td></tr>
-<tr><td><a href="https://zed.dev">Zed</a></td><td>Blazing-fast collaborative editor written in Rust, with a built-in AI agent panel and external agent (ACP) integration</td></tr>
-<tr><td><a href="https://github.com/cline/cline">Cline</a></td><td>Open-source autonomous coding agent extension for VS Code, with plan/act modes and browser automation</td></tr>
-<tr><td><a href="https://github.com/RooCodeInc/Roo-Code">Roo Code</a></td><td>VS Code AI agent forked from Cline, known for its custom Modes system and multi-agent workflows</td></tr>
-<tr><td><a href="https://kilocode.ai">Kilo Code</a></td><td>Open-source VS Code AI agent extension combining the strengths of Cline and Roo Code</td></tr>
-<tr><td><a href="https://continue.dev">Continue</a></td><td>Open-source AI coding assistant for VS Code and JetBrains, offering extensibility via custom models and rules</td></tr>
-</table>
+- **[Cursor](https://cursor.com)** — Leading AI-native editor on a VS Code fork: agent mode, rules (.cursorrules), MCP support.
+- **[Windsurf](https://windsurf.com)** — AI IDE acquired by Cognition, with the Cascade agent and zero-data-retention privacy design.
+- **[Zed](https://zed.dev)** — Blazing-fast collaborative editor in Rust, with a built-in agent panel and external agent (ACP) integration.
+- **[Cline](https://github.com/cline/cline)** — Open-source autonomous coding agent for VS Code: plan/act modes, browser automation.
+- **[Roo Code](https://github.com/RooCodeInc/Roo-Code)** — VS Code agent forked from Cline, known for custom Modes and multi-agent workflows.
+- **[Kilo Code](https://kilocode.ai)** — Open-source VS Code agent combining the strengths of Cline and Roo Code.
+- **[Continue](https://continue.dev)** — Open-source AI assistant for VS Code and JetBrains, extensible via custom models and rules.
 
 ## Per-Tool Extension & Rules Ecosystems
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://cursor.directory">cursor.directory</a></td><td>The largest community directory of rules and MCP servers for Cursor</td></tr>
-<tr><td><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a></td><td>Curated repository of ~40k stars collecting .cursorrules config files by framework and language</td></tr>
-<tr><td><a href="https://github.com/github/awesome-copilot">Awesome Copilot</a></td><td>GitHub's official community repository of instructions, agents, skills, and prompts for Copilot</td></tr>
-<tr><td><a href="https://geminicli.com/extensions/">Gemini CLI Extensions Gallery</a></td><td>Official gallery for browsing 1,300+ official and third-party Gemini CLI extensions, sorted by GitHub stars</td></tr>
-<tr><td><a href="https://github.com/Piebald-AI/awesome-gemini-cli">Awesome Gemini CLI</a></td><td>Curated list of tools, extensions, and resources for Gemini CLI</td></tr>
-<tr><td><a href="https://github.com/cline/prompts">Cline Prompts (Community)</a></td><td>Collection of community rules (.clinerules) and workflows, ready to apply from the Cline extension's prompt library</td></tr>
-<tr><td><a href="https://zed.dev/extensions">Zed Extensions</a></td><td>Official extension marketplace for the Zed editor, offering language support, themes, and AI integration extensions</td></tr>
-</table>
+- **[cursor.directory](https://cursor.directory)** — The largest community directory of rules and MCP servers for Cursor.
+- **[Awesome CursorRules](https://github.com/PatrickJS/awesome-cursorrules)** (40k★) — .cursorrules config files by framework and language.
+- **[Awesome Copilot](https://github.com/github/awesome-copilot)** — GitHub's official community repo of Copilot instructions, agents, skills, prompts.
+- **[Gemini CLI Extensions Gallery](https://geminicli.com/extensions/)** — 1,300+ official and third-party Gemini CLI extensions.
+- **[Awesome Gemini CLI](https://github.com/Piebald-AI/awesome-gemini-cli)** — Curated tools, extensions, and resources for Gemini CLI.
+- **[Cline Prompts](https://github.com/cline/prompts)** — Community rules (.clinerules) and workflows for the Cline prompt library.
+- **[Zed Extensions](https://zed.dev/extensions)** — Official Zed marketplace: language support, themes, AI integrations.
+
+---
+
+**See also:** [Skills & Plugins](skills-plugins.md) · [Trending coding agents](trending.md#ai-coding-agents--clis) · [Agent frameworks](agent-frameworks.md)

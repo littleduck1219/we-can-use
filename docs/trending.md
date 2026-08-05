@@ -1,44 +1,40 @@
 # Trending Now
 
-A snapshot of AI coding ecosystem projects whose GitHub stars are surging. Trends move fast, so this page is refreshed periodically. (As of 2026-08)
+**English** | [한국어](trending.ko.md)
+
+A snapshot of AI coding ecosystem projects whose GitHub stars are surging. Refreshed periodically. (As of 2026-08)
+
+**Sections:** [Plugins & Skills](#plugins--skills) · [AI Coding Agents & CLIs](#ai-coding-agents--clis) · [MCP & Agent Infrastructure](#mcp--agent-infrastructure) · [Dev Utilities](#dev-utilities)
 
 ## Plugins & Skills
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/DietrichGebert/ponytail">ponytail</a></td><td>Claude Code plugin that turns AI agents into "the laziest senior developer" (~96.1k stars) — enforces YAGNI, stdlib-first, minimal code, with lite/full/ultra modes and commands like /ponytail-review and /ponytail-audit; famous for its 54% average code-reduction benchmark</td></tr>
-<tr><td><a href="https://github.com/JuliusBrussee/caveman">caveman</a></td><td>"why use many token when few token do trick" — Claude Code skill cutting output tokens by 65% on average with caveman-speak (~95.8k stars); often paired with ponytail, gaining 800+ stars a day</td></tr>
-<tr><td><a href="https://github.com/thedotmack/claude-mem">claude-mem</a></td><td>Persistent cross-session memory plugin (~89.6k stars) — compresses agent work with AI into SQLite + vector search and auto-injects it into the next session; broad support across Claude Code, Codex, and Gemini</td></tr>
-<tr><td><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill">ui-ux-pro-max-skill</a></td><td>Design intelligence skill with a database of 84 UI styles, 192 palettes, and font pairings (~113.5k stars) — explosively popular for fixing the "ugly AI-generated UI" problem</td></tr>
-<tr><td><a href="https://github.com/supermemoryai/claude-supermemory">claude-supermemory</a></td><td>Claude Code plugin providing persistent memory across projects and sessions on top of Supermemory (~2.7k stars), recently rising as a claude-mem alternative</td></tr>
-<tr><td><a href="https://github.com/zhaoxuya520/reverse-skill">reverse-skill</a></td><td>AI skill pack routing reverse engineering, pentesting, and CTF tasks to the right toolchains (~18.2k stars, 2k+ per day) — trending on GitHub via Claude Code, Cursor, and Cline integration</td></tr>
-</table>
+- **[ponytail](https://github.com/DietrichGebert/ponytail)** (96k★) — Makes AI agents code like "the laziest senior developer": YAGNI, stdlib-first, minimal diffs. Averages 54% less code.
+- **[caveman](https://github.com/JuliusBrussee/caveman)** (96k★) — "why use many token when few token do trick": cuts output tokens ~65% with caveman-speak. Often paired with ponytail.
+- **[claude-mem](https://github.com/thedotmack/claude-mem)** (90k★) — Persistent cross-session memory, auto-injected at session start. Works with Claude Code, Codex, Gemini.
+- **[ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** (114k★) — Design intelligence skill: 84 UI styles, 192 palettes, font pairings. Fixes "ugly AI UI".
+- **[claude-supermemory](https://github.com/supermemoryai/claude-supermemory)** (2.7k★) — Persistent memory across projects and sessions, built on Supermemory.
+- **[reverse-skill](https://github.com/zhaoxuya520/reverse-skill)** (18k★) — Routes reverse engineering, pentesting, and CTF tasks to the right toolchains.
 
 ## AI Coding Agents & CLIs
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/openclaw/openclaw">OpenClaw</a></td><td>"Your own 24/7 AI assistant" autonomous agent (~385k stars) — 2026's biggest sensation, becoming the fastest-growing project in GitHub history by breaking React's 10-year star record in 60 days</td></tr>
-<tr><td><a href="https://github.com/github/spec-kit">spec-kit</a></td><td>GitHub's official spec-driven development (SDD) toolkit (~125.3k stars) — write the spec first and have AI agents implement to it; established as the standard AI development methodology of 2026</td></tr>
-<tr><td><a href="https://github.com/esengine/DeepSeek-Reasonix">DeepSeek-Reasonix</a></td><td>DeepSeek-native terminal coding agent (~30.9k stars) — a single Go binary designed around prefix-cache stability, trending for low-cost long-running sessions</td></tr>
-<tr><td><a href="https://github.com/browser-use/video-use">video-use</a></td><td>New project from the browser-use team that edits video with Claude Code (~19.4k stars) — drop raw footage in a folder, chat, and get final.mp4</td></tr>
-</table>
+- **[OpenClaw](https://github.com/openclaw/openclaw)** (385k★) — "Your own 24/7 AI assistant": the fastest-growing project in GitHub history, breaking React's record in 60 days.
+- **[spec-kit](https://github.com/github/spec-kit)** (125k★) — GitHub's spec-driven development toolkit: write the spec, let agents implement it.
+- **[DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)** (31k★) — DeepSeek-native terminal coding agent; single Go binary built for cheap long-running sessions.
+- **[video-use](https://github.com/browser-use/video-use)** (19k★) — Edit video with Claude Code, from the browser-use team: drop footage in a folder, chat, get final.mp4.
 
 ## MCP & Agent Infrastructure
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/jlowin/fastmcp">FastMCP</a></td><td>The fastest Pythonic framework for building MCP servers and clients (~27.1k stars) — the de facto standard, with roughly 70% of all MCP servers built on it</td></tr>
-<tr><td><a href="https://github.com/TencentCloud/TencentDB-Agent-Memory">TencentDB-Agent-Memory</a></td><td>Team-scale AI agent memory hub (~14k stars, 1k+ per day) — converts conversations, docs, and code into four types of reusable memory assets shared across agents</td></tr>
-<tr><td><a href="https://github.com/livekit/agents">livekit/agents</a></td><td>Framework for building real-time voice AI agents (~12.5k stars) — consistently trending alongside the multimodal voice agent boom</td></tr>
-<tr><td><a href="https://github.com/uber/ADR">uber/ADR</a></td><td>Enterprise AI agent security system open-sourced by Uber (~745 stars, trending right after release) — includes observability sensors, a 300+ task benchmark, and threat detection; accepted at MLSys 2026</td></tr>
-</table>
+- **[FastMCP](https://github.com/jlowin/fastmcp)** (27k★) — The fastest Pythonic framework for MCP servers and clients; the de facto standard.
+- **[TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)** (14k★) — Team-scale agent memory hub: turns chats, docs, and code into shared memory assets.
+- **[livekit/agents](https://github.com/livekit/agents)** (13k★) — Framework for real-time voice AI agents.
+- **[uber/ADR](https://github.com/uber/ADR)** — Uber's enterprise AI agent security system: observability sensors, 300+ task benchmark, threat detection.
 
 ## Dev Utilities
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/firecrawl/pdf-inspector">pdf-inspector</a></td><td>Rust PDF analysis library from the Firecrawl team (~10.3k stars, 2.5k per day) — OCR-free text/scan detection, position-aware extraction, and Markdown conversion; rising fast as an AI pipeline utility</td></tr>
-<tr><td><a href="https://github.com/lyogavin/airllm">AirLLM</a></td><td>Layer-streaming library enabling 70B model inference on a 4GB GPU (~28.5k stars) — re-trending with an update that runs DeepSeek-V3 671B on 12GB VRAM</td></tr>
-<tr><td><a href="https://github.com/ComposioHQ/awesome-claude-skills">awesome-claude-skills (Composio)</a></td><td>Curated list of 1,000+ practical Claude skills and plugins (~71.8k stars) — the flagship index of the Claude skill ecosystem</td></tr>
-</table>
+- **[pdf-inspector](https://github.com/firecrawl/pdf-inspector)** (10k★) — Rust PDF analysis from the Firecrawl team: OCR-free extraction and Markdown conversion.
+- **[AirLLM](https://github.com/lyogavin/airllm)** (29k★) — 70B model inference on a 4GB GPU via layer streaming.
+- **[awesome-claude-skills (Composio)](https://github.com/ComposioHQ/awesome-claude-skills)** (72k★) — 1,000+ practical Claude skills and plugins; the flagship index of the ecosystem.
+
+---
+
+**See also:** [Skills & Plugins](skills-plugins.md) · [MCP](mcp.md) · [AI CLI tools](ai-cli-tools.md)

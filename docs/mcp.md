@@ -1,128 +1,106 @@
 # MCP (Model Context Protocol)
 
-A collection of MCP servers, directories & registries, and curated lists.
+**English** | [한국어](mcp.ko.md)
+
+MCP servers, the directories & registries that index them, and curated lists.
+
+**Sections:** [Official](#official) · [Directories & Registries](#directories--registries) · [Curated Lists](#curated-lists) · [Notable Servers](#notable-mcp-servers) · [Search & Web](#search--web) · [Design & Frontend](#design--frontend) · [Database & Backend](#database--backend) · [Communication & Productivity](#communication--productivity) · [DevOps](#dev-infrastructure--devops) · [Other](#other-notable-servers)
 
 ## Official
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://modelcontextprotocol.io">Model Context Protocol</a></td><td>Official MCP documentation site with the protocol spec, architecture, and getting-started guides</td></tr>
-<tr><td><a href="https://github.com/modelcontextprotocol/servers">MCP Reference Servers</a></td><td>Repository of official reference MCP servers such as Filesystem, Fetch, and Memory</td></tr>
-<tr><td><a href="https://registry.modelcontextprotocol.io">Official MCP Registry</a></td><td>Official MCP server registry run jointly by Anthropic, GitHub, Microsoft, and others (with a REST API)</td></tr>
-<tr><td><a href="https://github.com/modelcontextprotocol/registry">MCP Registry (GitHub)</a></td><td>Open-source community repository for the official MCP registry</td></tr>
-<tr><td><a href="https://github.com/modelcontextprotocol/typescript-sdk">MCP TypeScript SDK</a></td><td>Official TypeScript SDK for building MCP servers and clients</td></tr>
-<tr><td><a href="https://github.com/modelcontextprotocol/python-sdk">MCP Python SDK</a></td><td>Official Python SDK for building MCP servers and clients</td></tr>
-</table>
+- **[Model Context Protocol](https://modelcontextprotocol.io)** — Official docs: protocol spec, architecture, getting-started guides.
+- **[MCP Reference Servers](https://github.com/modelcontextprotocol/servers)** — Official reference servers: Filesystem, Fetch, Memory, and more.
+- **[Official MCP Registry](https://registry.modelcontextprotocol.io)** — Official registry run by Anthropic, GitHub, Microsoft, and others (REST API).
+- **[MCP Registry (GitHub)](https://github.com/modelcontextprotocol/registry)** — Open-source repository behind the official registry.
+- **[MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)** — Official TypeScript SDK for servers and clients.
+- **[MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)** — Official Python SDK for servers and clients.
 
 ## Directories & Registries
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://smithery.ai">Smithery</a></td><td>Registry offering 7,000+ MCP servers via CLI install or hosting</td></tr>
-<tr><td><a href="https://www.pulsemcp.com">PulseMCP</a></td><td>Large hand-curated MCP directory with 18,000+ servers, updated daily</td></tr>
-<tr><td><a href="https://glama.ai/mcp/servers">Glama MCP Servers</a></td><td>Directory indexing 30,000+ MCP servers with quality and security metrics</td></tr>
-<tr><td><a href="https://mcp.so">mcp.so</a></td><td>Community-driven MCP marketplace with 20,000+ MCP servers</td></tr>
-<tr><td><a href="https://mcpmarket.com">MCP Market</a></td><td>MCP server marketplace for browsing servers by category</td></tr>
-<tr><td><a href="https://hub.docker.com/mcp">Docker MCP Catalog</a></td><td>Docker's official MCP catalog of containerized MCP servers</td></tr>
-<tr><td><a href="https://mcpservers.org/">MCP Servers (mcpservers.org)</a></td><td>Catalog of 9,800+ official and community MCP servers for Claude, Codex, Cursor, and more</td></tr>
-<tr><td><a href="https://composio.dev/toolkits/">Composio Toolkits</a></td><td>Composio's toolkit directory offering 1,000+ SaaS integrations via MCP or API</td></tr>
-<tr><td><a href="https://mcp-awesome.com/">MCP Awesome</a></td><td>Directory of 1,200+ quality-vetted MCP servers with tutorials</td></tr>
-<tr><td><a href="https://awesome-mcp.tools/">Awesome MCP Tools</a></td><td>Live directory showing 2,000+ servers, re-scraped from the awesome-mcp-servers repo every 6 hours</td></tr>
-<tr><td><a href="https://cline.bot/mcp-marketplace">Cline MCP Marketplace</a></td><td>Official marketplace offering one-click installs of MCP servers for the Cline agent</td></tr>
-<tr><td><a href="https://modelscope.cn/mcp">ModelScope MCP</a></td><td>China's largest MCP server marketplace, run by Alibaba's ModelScope</td></tr>
-</table>
+- **[Smithery](https://smithery.ai)** — 7,000+ MCP servers via CLI install or hosting.
+- **[PulseMCP](https://www.pulsemcp.com)** — Hand-curated directory of 18,000+ servers, updated daily.
+- **[Glama MCP Servers](https://glama.ai/mcp/servers)** — Indexes 30,000+ servers with quality and security metrics.
+- **[mcp.so](https://mcp.so)** — Community-driven marketplace with 20,000+ servers.
+- **[MCP Market](https://mcpmarket.com)** — Marketplace for browsing servers by category.
+- **[Docker MCP Catalog](https://hub.docker.com/mcp)** — Docker's official catalog of containerized MCP servers.
+- **[mcpservers.org](https://mcpservers.org/)** — 9,800+ official and community servers for Claude, Codex, Cursor, and more.
+- **[Composio Toolkits](https://composio.dev/toolkits/)** — 1,000+ SaaS integrations via MCP or API.
+- **[MCP Awesome](https://mcp-awesome.com/)** — 1,200+ quality-vetted servers with tutorials.
+- **[Awesome MCP Tools](https://awesome-mcp.tools/)** — Live directory re-scraped from awesome-mcp-servers every 6 hours.
+- **[Cline MCP Marketplace](https://cline.bot/mcp-marketplace)** — One-click MCP server installs for the Cline agent.
+- **[ModelScope MCP](https://modelscope.cn/mcp)** — China's largest MCP marketplace, run by Alibaba's ModelScope.
 
 ## Curated Lists
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/punkpeye/awesome-mcp-servers">Awesome MCP Servers (punkpeye)</a></td><td>The most widely known curated list of MCP servers (multilingual READMEs)</td></tr>
-<tr><td><a href="https://github.com/wong2/awesome-mcp-servers">Awesome MCP Servers (wong2)</a></td><td>Another popular curated list covering official and community MCP servers</td></tr>
-<tr><td><a href="https://github.com/punkpeye/awesome-mcp-clients">Awesome MCP Clients</a></td><td>Curated list of client applications that support MCP</td></tr>
-<tr><td><a href="https://github.com/punkpeye/awesome-mcp-devtools">Awesome MCP DevTools</a></td><td>Curated list of SDKs, libraries, and testing tools for MCP server development</td></tr>
-</table>
+- **[Awesome MCP Servers (punkpeye)](https://github.com/punkpeye/awesome-mcp-servers)** — The most widely known curated list (multilingual READMEs).
+- **[Awesome MCP Servers (wong2)](https://github.com/wong2/awesome-mcp-servers)** — Another popular list of official and community servers.
+- **[Awesome MCP Clients](https://github.com/punkpeye/awesome-mcp-clients)** — Client applications that support MCP.
+- **[Awesome MCP DevTools](https://github.com/punkpeye/awesome-mcp-devtools)** — SDKs, libraries, and testing tools for MCP development.
 
 ## Notable MCP Servers
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/github/github-mcp-server">GitHub MCP Server</a></td><td>GitHub's official MCP server for managing repositories, issues, and PRs</td></tr>
-<tr><td><a href="https://github.com/microsoft/playwright-mcp">Playwright MCP</a></td><td>Microsoft's official MCP server for Playwright-based browser automation</td></tr>
-<tr><td><a href="https://github.com/upstash/context7">Context7</a></td><td>Popular MCP server from Upstash that injects up-to-date library docs and code examples into LLMs</td></tr>
-<tr><td><a href="https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem">Filesystem MCP Server</a></td><td>Official filesystem reference server for reading, writing, and searching local files</td></tr>
-<tr><td><a href="https://github.com/makenotion/notion-mcp-server">Notion MCP Server</a></td><td>Notion's official MCP server for Notion API integration</td></tr>
-<tr><td><a href="https://github.com/supabase/mcp">Supabase MCP</a></td><td>Official MCP server for controlling Supabase projects and databases with AI</td></tr>
-<tr><td><a href="https://github.com/crystaldba/postgres-mcp">Postgres MCP Pro</a></td><td>MCP server for PostgreSQL with index tuning and performance analysis</td></tr>
-<tr><td><a href="https://github.com/firecrawl/firecrawl-mcp-server">Firecrawl MCP Server</a></td><td>Firecrawl's official MCP server for web scraping and crawling</td></tr>
-<tr><td><a href="https://github.com/browserbase/mcp-server-browserbase">Browserbase MCP Server</a></td><td>Browserbase MCP server for cloud headless browser automation</td></tr>
-<tr><td><a href="https://github.com/cloudflare/mcp-server-cloudflare">Cloudflare MCP Server</a></td><td>Official collection of MCP servers for managing Cloudflare resources like Workers, KV, and R2</td></tr>
-<tr><td><a href="https://github.com/awslabs/mcp">AWS MCP Servers</a></td><td>AWS Labs' official collection of MCP servers covering AWS services</td></tr>
-<tr><td><a href="https://github.com/sooperset/mcp-atlassian">MCP Atlassian</a></td><td>Popular community MCP server for Jira and Confluence integration</td></tr>
-<tr><td><a href="https://github.com/ahujasid/blender-mcp">Blender MCP</a></td><td>Buzzworthy community MCP server for controlling Blender 3D modeling with Claude</td></tr>
-</table>
+- **[GitHub MCP Server](https://github.com/github/github-mcp-server)** — GitHub official: repositories, issues, and PRs.
+- **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** — Microsoft official: Playwright-based browser automation.
+- **[Context7](https://github.com/upstash/context7)** — Injects up-to-date library docs and code examples into LLMs (Upstash).
+- **[Filesystem MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)** — Official reference: read, write, and search local files.
+- **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** — Notion official: Notion API integration.
+- **[Supabase MCP](https://github.com/supabase/mcp)** — Official: control Supabase projects and databases with AI.
+- **[Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp)** — PostgreSQL with index tuning and performance analysis.
+- **[Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server)** — Firecrawl official: web scraping and crawling.
+- **[Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase)** — Cloud headless browser automation.
+- **[Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare)** — Official: manage Workers, KV, R2, and other Cloudflare resources.
+- **[AWS MCP Servers](https://github.com/awslabs/mcp)** — AWS Labs' official collection covering AWS services.
+- **[MCP Atlassian](https://github.com/sooperset/mcp-atlassian)** — Popular community server for Jira and Confluence.
+- **[Blender MCP](https://github.com/ahujasid/blender-mcp)** — Control Blender 3D modeling with Claude.
 
 ## Search & Web
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/brave/brave-search-mcp-server">Brave Search MCP</a></td><td>Brave's official MCP server offering web, image, news, and video search plus AI summaries</td></tr>
-<tr><td><a href="https://github.com/exa-labs/exa-mcp-server">Exa MCP</a></td><td>Official web search and crawling server from Exa, the semantic search engine built for AI agents</td></tr>
-<tr><td><a href="https://github.com/tavily-ai/tavily-mcp">Tavily MCP</a></td><td>Official server for Tavily, the LLM-optimized search API, with real-time search, extraction, and crawling</td></tr>
-<tr><td><a href="https://github.com/ppl-ai/modelcontextprotocol">Perplexity MCP</a></td><td>Official connector bringing real-time web research via the Perplexity Sonar API to agents</td></tr>
-</table>
+- **[Brave Search MCP](https://github.com/brave/brave-search-mcp-server)** — Official: web/image/news/video search plus AI summaries.
+- **[Exa MCP](https://github.com/exa-labs/exa-mcp-server)** — Official server from Exa, the semantic search engine built for AI agents.
+- **[Tavily MCP](https://github.com/tavily-ai/tavily-mcp)** — LLM-optimized search API: real-time search, extraction, crawling.
+- **[Perplexity MCP](https://github.com/ppl-ai/modelcontextprotocol)** — Real-time web research via the Perplexity Sonar API.
 
 ## Design & Frontend
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://developers.figma.com/docs/figma-mcp-server/">Figma Dev Mode MCP</a></td><td>Figma's official MCP server that feeds design tokens, components, and layout data directly into code generation</td></tr>
-<tr><td><a href="https://github.com/GLips/Figma-Context-MCP">Framelink Figma MCP</a></td><td>Popular community server providing Figma file layout data to AI coding tools</td></tr>
-<tr><td><a href="https://ui.shadcn.com/docs/registry/mcp">shadcn MCP</a></td><td>Official MCP server for searching and installing components from the shadcn/ui registry</td></tr>
-<tr><td><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp">Chrome DevTools MCP</a></td><td>Google's official server for debugging, profiling, and automating a running browser through Chrome DevTools</td></tr>
-<tr><td><a href="https://github.com/21st-dev/magic-mcp">Magic MCP (21st.dev)</a></td><td>Frontend-focused server that generates modern UI components from natural-language descriptions</td></tr>
-</table>
+- **[Figma Dev Mode MCP](https://developers.figma.com/docs/figma-mcp-server/)** — Official: feeds design tokens, components, and layout into codegen.
+- **[Framelink Figma MCP](https://github.com/GLips/Figma-Context-MCP)** — Popular community server providing Figma layout data to AI coding tools.
+- **[shadcn MCP](https://ui.shadcn.com/docs/registry/mcp)** — Official: search and install components from the shadcn/ui registry.
+- **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** — Google official: debug, profile, and automate a running browser.
+- **[Magic MCP (21st.dev)](https://github.com/21st-dev/magic-mcp)** — Generates modern UI components from natural language.
 
 ## Database & Backend
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/mongodb-js/mongodb-mcp-server">MongoDB MCP</a></td><td>Official server for querying and managing data in MongoDB and Atlas clusters</td></tr>
-<tr><td><a href="https://github.com/redis/mcp-redis">Redis MCP</a></td><td>Official server for searching, storing, and managing Redis data in natural language</td></tr>
-<tr><td><a href="https://github.com/neondatabase/mcp-server-neon">Neon MCP</a></td><td>Manage projects, branches, and queries on Neon, the serverless Postgres platform, in natural language</td></tr>
-<tr><td><a href="https://github.com/prisma/mcp">Prisma MCP</a></td><td>Official server for creating, backing up, and migrating Prisma Postgres databases from AI tools</td></tr>
-<tr><td><a href="https://docs.convex.dev/ai/convex-mcp-server">Convex MCP</a></td><td>Official server letting agents inspect and run against Convex backend tables, functions, and deployments</td></tr>
-<tr><td><a href="https://github.com/ClickHouse/mcp-clickhouse">ClickHouse MCP</a></td><td>Official server for running SQL queries against the ClickHouse analytics database</td></tr>
-<tr><td><a href="https://github.com/qdrant/mcp-server-qdrant">Qdrant MCP</a></td><td>Official server that turns the Qdrant vector database into a semantic memory layer for agents</td></tr>
-<tr><td><a href="https://github.com/chroma-core/chroma-mcp">Chroma MCP</a></td><td>Official server for vector and full-text search plus document storage on the Chroma embedding database</td></tr>
-</table>
+- **[MongoDB MCP](https://github.com/mongodb-js/mongodb-mcp-server)** — Official: query and manage MongoDB and Atlas clusters.
+- **[Redis MCP](https://github.com/redis/mcp-redis)** — Official: search, store, and manage Redis data in natural language.
+- **[Neon MCP](https://github.com/neondatabase/mcp-server-neon)** — Manage serverless Postgres projects, branches, and queries.
+- **[Prisma MCP](https://github.com/prisma/mcp)** — Official: create, back up, and migrate Prisma Postgres databases.
+- **[Convex MCP](https://docs.convex.dev/ai/convex-mcp-server)** — Official: inspect and run against Convex tables, functions, deployments.
+- **[ClickHouse MCP](https://github.com/ClickHouse/mcp-clickhouse)** — Official: SQL queries against the ClickHouse analytics database.
+- **[Qdrant MCP](https://github.com/qdrant/mcp-server-qdrant)** — Official: turns Qdrant into a semantic memory layer for agents.
+- **[Chroma MCP](https://github.com/chroma-core/chroma-mcp)** — Official: vector/full-text search and document storage on Chroma.
 
 ## Communication & Productivity
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/korotovsky/slack-mcp-server">Slack MCP Server</a></td><td>The most popular Slack server, supporting DMs, threads, history retrieval, and message sending</td></tr>
-<tr><td><a href="https://linear.app/docs/mcp">Linear MCP</a></td><td>Official remote server for viewing, creating, and updating Linear issues and projects from AI tools</td></tr>
-<tr><td><a href="https://github.com/getsentry/sentry-mcp">Sentry MCP</a></td><td>Official server for querying Sentry errors and issues, with AI-powered root cause analysis (Seer)</td></tr>
-<tr><td><a href="https://github.com/stripe/agent-toolkit">Stripe Agent Toolkit</a></td><td>Official toolkit and MCP server for using the Stripe API from agents: payments, invoices, customer management, and more</td></tr>
-<tr><td><a href="https://zapier.com/mcp">Zapier MCP</a></td><td>Automation hub exposing 8,000+ app integrations through a single MCP endpoint</td></tr>
-</table>
+- **[Slack MCP Server](https://github.com/korotovsky/slack-mcp-server)** — Most popular Slack server: DMs, threads, history, message sending.
+- **[Linear MCP](https://linear.app/docs/mcp)** — Official remote server for Linear issues and projects.
+- **[Sentry MCP](https://github.com/getsentry/sentry-mcp)** — Official: query Sentry errors with AI root cause analysis (Seer).
+- **[Stripe Agent Toolkit](https://github.com/stripe/agent-toolkit)** — Official: payments, invoices, and customer management from agents.
+- **[Zapier MCP](https://zapier.com/mcp)** — 8,000+ app integrations through a single MCP endpoint.
 
 ## Dev Infrastructure & DevOps
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/containers/kubernetes-mcp-server">Kubernetes MCP</a></td><td>Native Go server for operating Kubernetes and OpenShift resources without kubectl</td></tr>
-<tr><td><a href="https://github.com/hashicorp/terraform-mcp-server">Terraform MCP</a></td><td>HashiCorp's official server that helps write IaC code using provider and module data from the Terraform registry</td></tr>
-<tr><td><a href="https://github.com/grafana/mcp-grafana">Grafana MCP</a></td><td>Grafana's official server supporting dashboard and datasource queries plus Prometheus/Loki queries</td></tr>
-<tr><td><a href="https://github.com/Azure/azure-mcp">Azure MCP</a></td><td>Microsoft's official server for managing Azure resources and operating key services</td></tr>
-<tr><td><a href="https://vercel.com/docs/mcp/vercel-mcp">Vercel MCP</a></td><td>Official remote server for managing Vercel projects, deployments, and logs from AI tools</td></tr>
-</table>
+- **[Kubernetes MCP](https://github.com/containers/kubernetes-mcp-server)** — Native Go server operating Kubernetes/OpenShift without kubectl.
+- **[Terraform MCP](https://github.com/hashicorp/terraform-mcp-server)** — HashiCorp official: write IaC with Terraform registry data.
+- **[Grafana MCP](https://github.com/grafana/mcp-grafana)** — Official: dashboards, datasources, and Prometheus/Loki queries.
+- **[Azure MCP](https://github.com/Azure/azure-mcp)** — Microsoft official: manage Azure resources and key services.
+- **[Vercel MCP](https://vercel.com/docs/mcp/vercel-mcp)** — Official remote server for Vercel projects, deployments, logs.
 
 ## Other Notable Servers
 
-<table width="100%">
-<tr><th width="340">Link</th><th>Description</th></tr>
-<tr><td><a href="https://github.com/oraios/serena">Serena</a></td><td>Buzzworthy toolkit that supercharges coding agents with LSP-based symbol-level code search and editing</td></tr>
-<tr><td><a href="https://github.com/elevenlabs/elevenlabs-mcp">ElevenLabs MCP</a></td><td>Official server connecting ElevenLabs audio AI: text-to-speech, voice cloning, transcription, and more</td></tr>
-<tr><td><a href="https://github.com/microsoft/markitdown">MarkItDown MCP</a></td><td>Microsoft's popular tool for converting PDFs, Office documents, and more into LLM-friendly Markdown</td></tr>
-</table>
+- **[Serena](https://github.com/oraios/serena)** — Supercharges coding agents with LSP-based symbol-level code search and editing.
+- **[ElevenLabs MCP](https://github.com/elevenlabs/elevenlabs-mcp)** — Official: text-to-speech, voice cloning, transcription.
+- **[MarkItDown MCP](https://github.com/microsoft/markitdown)** — Microsoft: converts PDFs and Office docs to LLM-friendly Markdown.
+
+---
+
+**See also:** [Full catalog (3,700+ repos)](../catalog/mcp-servers.md) · [Trending MCP & infra](trending.md#mcp--agent-infrastructure) · [Agent frameworks](agent-frameworks.md)
