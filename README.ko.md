@@ -9,7 +9,7 @@
 ### 🔥 [지금 뜨는 프로젝트](docs/trending.ko.md)
 
 GitHub에서 스타가 급등 중인 화제작.
-→ ponytail · OpenClaw · spec-kit · claude-mem · FastMCP
+→ ponytail · OpenClaw · graphify · Orca · spec-kit · claude-mem
 
 ### 🧩 [스킬 & 플러그인](docs/skills-plugins.ko.md) — [전체 목록: 10,000+](catalog/skills-plugins.md)
 
@@ -24,7 +24,7 @@ MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트.
 ### ⌨️ [AI CLI 도구 & 에디터](docs/ai-cli-tools.ko.md)
 
 CLI 코딩 에이전트, AI 에디터·IDE, 도구별 확장 생태계.
-→ Codex CLI · Copilot CLI · Cursor · Windsurf · Aider · OpenCode
+→ Codex CLI · Copilot CLI · Cursor · Windsurf · OpenCode · Orca
 
 ### 🤖 [에이전트 프레임워크 & SDK](docs/agent-frameworks.ko.md)
 

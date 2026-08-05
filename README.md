@@ -9,7 +9,7 @@ A link wiki organizing the fast-moving AI coding tool ecosystem by category. Eac
 ### 🔥 [Trending Now](docs/trending.md)
 
 Projects surging on GitHub right now.
-→ ponytail · OpenClaw · spec-kit · claude-mem · FastMCP
+→ ponytail · OpenClaw · graphify · Orca · spec-kit · claude-mem
 
 ### 🧩 [Skills & Plugins](docs/skills-plugins.md) — [full list: 10,000+](catalog/skills-plugins.md)
 
@@ -24,7 +24,7 @@ MCP servers, directories & registries, and curated lists.
 ### ⌨️ [AI CLI Tools & Editors](docs/ai-cli-tools.md)
 
 CLI coding agents, AI editors and IDEs, and each tool's extension ecosystem.
-→ Codex CLI · Copilot CLI · Cursor · Windsurf · Aider · OpenCode
+→ Codex CLI · Copilot CLI · Cursor · Windsurf · OpenCode · Orca
 
 ### 🤖 [Agent Frameworks & SDKs](docs/agent-frameworks.md)
 

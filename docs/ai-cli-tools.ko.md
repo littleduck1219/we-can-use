@@ -4,7 +4,7 @@
 
 Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE, 그리고 각 도구의 확장·규칙 생태계 모음.
 
-**섹션:** [CLI 에이전트](#cli-에이전트) · [AI 에디터 & IDE](#ai-에디터--ide) · [도구별 확장 & 규칙 생태계](#도구별-확장--규칙-생태계)
+**섹션:** [CLI 에이전트](#cli-에이전트) · [AI 에디터 & IDE](#ai-에디터--ide) · [병렬 에이전트 매니저](#병렬-에이전트-매니저) · [도구별 확장 & 규칙 생태계](#도구별-확장--규칙-생태계)
 
 ## CLI 에이전트
 
@@ -28,6 +28,15 @@ Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE, 그리고 각 
 - **[Roo Code](https://github.com/RooCodeInc/Roo-Code)** — Cline에서 포크된 VS Code 에이전트. 커스텀 Modes와 멀티 에이전트 워크플로.
 - **[Kilo Code](https://kilocode.ai)** — Cline과 Roo Code의 장점을 결합한 오픈소스 VS Code 에이전트.
 - **[Continue](https://continue.dev)** — VS Code·JetBrains용 오픈소스 AI 어시스턴트. 커스텀 모델·규칙으로 확장.
+
+## 병렬 에이전트 매니저
+
+여러 코딩 에이전트를 각자 격리된 작업공간에서 나란히 돌리는 도구.
+
+- **[Orca](https://github.com/stablyai/orca)** (38k★) — git worktree에서 에이전트 함대를 병렬로 돌리는 에이전트 개발 환경(ADE). Claude Code, Codex, Cursor CLI 등 30+ CLI 에이전트를 데스크톱·모바일·VPS에서 지원.
+- **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** (28k★) — 칸반 보드로 코딩 에이전트를 오케스트레이션: 태스크 계획, 병렬 실행, 시각적 리뷰. 커뮤니티 유지보수, Apache-2.0.
+- **[Conductor](https://conductor.build)** — Claude Code/Codex/Cursor 에이전트를 격리 작업공간에서 병렬 실행하는 무료 맥 앱. Linear 연동.
+- **[claude-squad](https://github.com/smtg-ai/claude-squad)** — 여러 AI 에이전트(Claude Code, Codex 등)를 격리 작업공간에서 병렬 관리하는 TUI.
 
 ## 도구별 확장 & 규칙 생태계
 

@@ -4,7 +4,7 @@
 
 AI coding CLI agents beyond Claude Code, AI editors and IDEs, and each tool's extension and rules ecosystem.
 
-**Sections:** [CLI Agents](#cli-agents) · [AI Editors & IDEs](#ai-editors--ides) · [Extension & Rules Ecosystems](#per-tool-extension--rules-ecosystems)
+**Sections:** [CLI Agents](#cli-agents) · [AI Editors & IDEs](#ai-editors--ides) · [Parallel Agent Managers](#parallel-agent-managers) · [Extension & Rules Ecosystems](#per-tool-extension--rules-ecosystems)
 
 ## CLI Agents
 
@@ -28,6 +28,15 @@ AI coding CLI agents beyond Claude Code, AI editors and IDEs, and each tool's ex
 - **[Roo Code](https://github.com/RooCodeInc/Roo-Code)** — VS Code agent forked from Cline, known for custom Modes and multi-agent workflows.
 - **[Kilo Code](https://kilocode.ai)** — Open-source VS Code agent combining the strengths of Cline and Roo Code.
 - **[Continue](https://continue.dev)** — Open-source AI assistant for VS Code and JetBrains, extensible via custom models and rules.
+
+## Parallel Agent Managers
+
+Tools for running a fleet of coding agents side by side, each in its own isolated workspace.
+
+- **[Orca](https://github.com/stablyai/orca)** (38k★) — Agent Development Environment (ADE) running a fleet of parallel agents in git worktrees; supports 30+ CLI agents (Claude Code, Codex, Cursor CLI, ...) on desktop, mobile, and VPS.
+- **[Vibe Kanban](https://github.com/BloopAI/vibe-kanban)** (28k★) — Kanban-board orchestration for coding agents: plan tasks, run agents in parallel, review visually. Community-maintained, Apache-2.0.
+- **[Conductor](https://conductor.build)** — Free Mac app running parallel Claude Code/Codex/Cursor agents in isolated workspaces, with Linear integration.
+- **[claude-squad](https://github.com/smtg-ai/claude-squad)** — TUI managing multiple AI agents (Claude Code, Codex, ...) in parallel isolated workspaces.
 
 ## Per-Tool Extension & Rules Ecosystems
 
