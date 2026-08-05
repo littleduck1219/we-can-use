@@ -6,11 +6,11 @@
 
 | 링크 | 설명 |
 |------|------|
-| [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | SOTA AI 자율 에이전트와 프레임워크를 총망라한 대표 큐레이션 리스트 (29k+ 스타) |
-| [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | RAG, 에이전트, 에이전트 스킬 등 100개 이상의 오픈소스 LLM 앱 예제 모음 |
-| [steven2358/awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 텍스트·코딩·이미지·비디오·오디오 등 분야별 생성형 AI 프로젝트/서비스 큐레이션 |
-| [mahseema/awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) | 코드 생성, 생산성, 학습 리소스 등 카테고리별 AI 도구 정리 리스트 |
-| [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | LLM 논문·오픈소스 모델·학습/추론 프레임워크·평가 벤치마크까지 아우르는 종합 리스트 |
+| [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | SOTA AI 자율 에이전트와 프레임워크를 총망라한 대표 큐레이션 리스트 (29k+ 스타) |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | RAG, 에이전트, 에이전트 스킬 등 100개 이상의 오픈소스 LLM 앱 예제 모음 |
+| [awesome-generative-ai](https://github.com/steven2358/awesome-generative-ai) | 텍스트·코딩·이미지·비디오·오디오 등 분야별 생성형 AI 프로젝트/서비스 큐레이션 |
+| [awesome-ai-tools](https://github.com/mahseema/awesome-ai-tools) | 코드 생성, 생산성, 학습 리소스 등 카테고리별 AI 도구 정리 리스트 |
+| [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | LLM 논문·오픈소스 모델·학습/추론 프레임워크·평가 벤치마크까지 아우르는 종합 리스트 |
 
 ## 디렉토리·탐색 사이트
 
