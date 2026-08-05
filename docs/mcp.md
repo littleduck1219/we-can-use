@@ -4,7 +4,7 @@ MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 모음.
 
 ## 공식 (Official)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://modelcontextprotocol.io">Model Context Protocol</a></td><td>MCP 공식 문서 사이트로, 프로토콜 사양·아키텍처·시작 가이드를 제공</td></tr>
 <tr><td><a href="https://github.com/modelcontextprotocol/servers">MCP Reference Servers</a></td><td>Filesystem, Fetch, Memory 등 공식 레퍼런스 MCP 서버 모음 저장소</td></tr>
@@ -16,7 +16,7 @@ MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 모음.
 
 ## 디렉토리·레지스트리 (Directories / Registries)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://smithery.ai">Smithery</a></td><td>7,000개 이상의 MCP 서버를 CLI 설치 또는 호스팅 방식으로 제공하는 레지스트리</td></tr>
 <tr><td><a href="https://www.pulsemcp.com">PulseMCP</a></td><td>매일 업데이트되는 18,000개 이상의 서버를 수록한 대형 수작업 검수 MCP 디렉토리</td></tr>
@@ -28,7 +28,7 @@ MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 모음.
 
 ## 큐레이션 리스트 (Curated Lists)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/punkpeye/awesome-mcp-servers">Awesome MCP Servers (punkpeye)</a></td><td>가장 널리 알려진 MCP 서버 큐레이션 리스트 (다국어 README 지원)</td></tr>
 <tr><td><a href="https://github.com/wong2/awesome-mcp-servers">Awesome MCP Servers (wong2)</a></td><td>공식·커뮤니티 MCP 서버를 정리한 또 다른 인기 큐레이션 리스트</td></tr>
@@ -38,7 +38,7 @@ MCP 서버, 디렉토리·레지스트리, 큐레이션 리스트 모음.
 
 ## 주요 MCP 서버 (Notable MCP Servers)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/github/github-mcp-server">GitHub MCP Server</a></td><td>저장소·이슈·PR 관리를 지원하는 GitHub 공식 MCP 서버</td></tr>
 <tr><td><a href="https://github.com/microsoft/playwright-mcp">Playwright MCP</a></td><td>Playwright 기반 브라우저 자동화를 제공하는 Microsoft 공식 MCP 서버</td></tr>

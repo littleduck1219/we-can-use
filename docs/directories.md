@@ -4,7 +4,7 @@
 
 ## Awesome 리스트
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/e2b-dev/awesome-ai-agents">awesome-ai-agents</a></td><td>SOTA AI 자율 에이전트와 프레임워크를 총망라한 대표 큐레이션 리스트 (29k+ 스타)</td></tr>
 <tr><td><a href="https://github.com/Shubhamsaboo/awesome-llm-apps">awesome-llm-apps</a></td><td>RAG, 에이전트, 에이전트 스킬 등 100개 이상의 오픈소스 LLM 앱 예제 모음</td></tr>
@@ -15,7 +15,7 @@
 
 ## 디렉토리·탐색 사이트
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://theresanaiforthat.com/">There's An AI For That</a></td><td>태스크 기반으로 AI 도구를 검색할 수 있는 최대 규모 AI 도구 디렉토리</td></tr>
 <tr><td><a href="https://www.futurepedia.io/">Futurepedia</a></td><td>4,000개 이상의 AI 도구를 카테고리·평점과 함께 제공하는 디렉토리 겸 학습 플랫폼</td></tr>
@@ -27,7 +27,7 @@
 
 ## 프롬프트·리소스
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://code.claude.com/docs/en/prompt-library">Claude Code Prompt Library</a></td><td>Anthropic 공식, 작업·역할별로 태그된 Claude Code용 복붙 프롬프트 라이브러리</td></tr>
 <tr><td><a href="https://github.com/anthropics/claude-cookbooks">Anthropic Claude Cookbooks</a></td><td>RAG, 툴 사용, 서브에이전트 등 Claude 활용 패턴을 담은 공식 노트북 레시피 모음</td></tr>
@@ -40,7 +40,7 @@
 
 ## 벤치마크·리더보드
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://arena.ai/">LMArena (Arena)</a></td><td>실사용자 블라인드 투표 기반 Elo 방식의 대표 LLM 랭킹 리더보드</td></tr>
 <tr><td><a href="https://artificialanalysis.ai/">Artificial Analysis</a></td><td>모델별 지능 지수·속도·가격을 함께 비교하는 독립 벤치마크 분석 플랫폼</td></tr>

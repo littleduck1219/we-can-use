@@ -4,7 +4,7 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 
 ## 공식 (Official)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/anthropics/claude-code">claude-code</a></td><td>Claude Code 공식 저장소, 이슈 트래킹과 공식 plugin-dev 플러그인 포함</td></tr>
 <tr><td><a href="https://github.com/anthropics/skills">skills</a></td><td>Anthropic 공식 Agent Skills 저장소 (문서 편집, 아트, MCP 서버 생성 등 예제 스킬 모음)</td></tr>
@@ -19,7 +19,7 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 
 ## 스킬 (Skills)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/travisvn/awesome-claude-skills">awesome-claude-skills</a></td><td>엄선된 Claude Skills·리소스·도구 큐레이션 리스트</td></tr>
 <tr><td><a href="https://github.com/obra/superpowers">superpowers</a></td><td>TDD, 브레인스토밍, 디버깅 등 조합 가능한 스킬 기반의 에이전트 개발 방법론 플러그인</td></tr>
@@ -29,7 +29,7 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 
 ## 플러그인·마켓플레이스 (Plugins & Marketplaces)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/ccplugins/awesome-claude-code-plugins">awesome-claude-code-plugins</a></td><td>슬래시 커맨드·서브에이전트·MCP·훅을 아우르는 플러그인 큐레이션 리스트</td></tr>
 <tr><td><a href="https://github.com/composio-community/awesome-claude-plugins">awesome-claude-plugins</a></td><td>플러그인 시스템으로 Claude Code를 확장하는 플러그인 큐레이션 리스트</td></tr>
@@ -42,7 +42,7 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 
 ## 서브에이전트 (Subagents)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/wshobson/agents">agents</a></td><td>200+ 에이전트·175 스킬을 담은 프로덕션급 멀티하네스 플러그인 마켓플레이스 (38k+ 스타)</td></tr>
 <tr><td><a href="https://github.com/VoltAgent/awesome-claude-code-subagents">awesome-claude-code-subagents</a></td><td>개발 전 분야를 커버하는 100+ 전문 서브에이전트 컬렉션</td></tr>
@@ -51,7 +51,7 @@ Claude Code의 스킬, 플러그인, 서브에이전트, 훅과 관련 마켓플
 
 ## 훅·기타 (Hooks & Misc)
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/disler/claude-code-hooks-mastery">claude-code-hooks-mastery</a></td><td>훅으로 Claude Code 동작을 제어하는 법을 배우는 실전 예제 저장소 (서브에이전트·메타 에이전트 포함)</td></tr>
 <tr><td><a href="https://github.com/ithiria894/awesome-claude-code-hooks">awesome-claude-code-hooks</a></td><td>비용 추적, 보안 검사, 파일 정리 등 이벤트 기반 훅 큐레이션 컬렉션</td></tr>

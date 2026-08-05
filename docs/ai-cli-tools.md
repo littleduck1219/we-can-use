@@ -4,7 +4,7 @@ Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE와 각 도구�
 
 ## CLI 에이전트
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://github.com/openai/codex">OpenAI Codex CLI</a></td><td>OpenAI의 오픈소스(Apache-2.0) 터미널 코딩 에이전트로, 샌드박스 실행과 안전성에 중점을 둔 CLI 도구</td></tr>
 <tr><td><a href="https://github.com/github/copilot-cli">GitHub Copilot CLI</a></td><td>Copilot 코딩 에이전트를 터미널로 가져온 GitHub 공식 CLI로, 2026년 2월 정식 출시(GA)됨</td></tr>
@@ -20,7 +20,7 @@ Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE와 각 도구�
 
 ## AI 에디터·IDE
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://cursor.com">Cursor</a></td><td>VS Code 포크 기반의 대표적인 AI 네이티브 코드 에디터로, 에이전트 모드·규칙(.cursorrules)·MCP 지원</td></tr>
 <tr><td><a href="https://windsurf.com">Windsurf</a></td><td>Cognition(Devin 개발사)이 인수한 AI IDE로, Cascade 에이전트와 제로 데이터 보존 등 프라이버시 중심 설계</td></tr>
@@ -33,7 +33,7 @@ Claude Code 외의 AI 코딩 CLI 에이전트, AI 에디터·IDE와 각 도구�
 
 ## 도구별 확장·룰 생태계
 
-<table>
+<table width="100%">
 <tr><th width="340">링크</th><th>설명</th></tr>
 <tr><td><a href="https://cursor.directory">cursor.directory</a></td><td>Cursor용 규칙(rules)과 MCP 서버를 모아둔 최대 규모의 커뮤니티 디렉터리</td></tr>
 <tr><td><a href="https://github.com/PatrickJS/awesome-cursorrules">Awesome CursorRules</a></td><td>프레임워크·언어별 .cursorrules 설정 파일을 모은 4만 스타 규모의 큐레이션 저장소</td></tr>
