@@ -97,6 +97,8 @@ MCP servers, the directories & registries that index them, and curated lists.
 
 ## Other Notable Servers
 
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) — Background check any company in the world: registration, executives, courts and finances. Remote: https://statsnet.co/mcp
+
 - **[Serena](https://github.com/oraios/serena)** — Supercharges coding agents with LSP-based symbol-level code search and editing.
 - **[ElevenLabs MCP](https://github.com/elevenlabs/elevenlabs-mcp)** — Official: text-to-speech, voice cloning, transcription.
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown)** — Microsoft: converts PDFs and Office docs to LLM-friendly Markdown.
