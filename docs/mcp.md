@@ -81,6 +81,7 @@ MCP servers, the directories & registries that index them, and curated lists.
 
 ## Communication & Productivity
 
+- **[Screenpipe](https://github.com/screenpipe/screenpipe/tree/main/packages/screenpipe-mcp)** — Search locally captured screen text and audio transcripts through MCP for recall, meeting notes, and work summaries; source-available under the Screenpipe Commercial License.
 - **[Slack MCP Server](https://github.com/korotovsky/slack-mcp-server)** — Most popular Slack server: DMs, threads, history, message sending.
 - **[Linear MCP](https://linear.app/docs/mcp)** — Official remote server for Linear issues and projects.
 - **[Sentry MCP](https://github.com/getsentry/sentry-mcp)** — Official: query Sentry errors with AI root cause analysis (Seer).
