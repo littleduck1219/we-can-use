@@ -41,6 +41,7 @@ MCP servers, the directories & registries that index them, and curated lists.
 
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** — GitHub official: repositories, issues, and PRs.
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** — Microsoft official: Playwright-based browser automation.
+- **[RunAPI MCP](https://github.com/runapi-ai/mcp)** — Browse models and run image, video, music, speech, and other model API jobs.
 - **[Context7](https://github.com/upstash/context7)** — Injects up-to-date library docs and code examples into LLMs (Upstash).
 - **[Filesystem MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)** — Official reference: read, write, and search local files.
 - **[Notion MCP Server](https://github.com/makenotion/notion-mcp-server)** — Notion official: Notion API integration.
