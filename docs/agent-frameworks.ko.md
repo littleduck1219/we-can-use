@@ -57,6 +57,7 @@ AI 앱·에이전트를 만들기 위한 SDK, 프레임워크, 프로토콜, 관
 - **[OpenViking](https://github.com/volcengine/OpenViking)** (28k★) — 에이전트 메모리·지식 RAG·스킬을 통합하는 자기 진화 컨텍스트 DB (Volcengine).
 - **[agentmemory](https://github.com/rohitg00/agentmemory)** (27k★) — 실전 벤치마크 기반 AI 코딩 에이전트용 영속 메모리.
 - **[beads](https://github.com/gastownhall/beads)** (26k★) — 코딩 에이전트를 위한 메모리 업그레이드.
+- **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** - 암호화된 추가 전용 기록, 기기 간 동기화, 범위와 만료 기한이 지정된 MCP 접근 권한을 제공하는 Rust 지식 저장소. 개발자용 알파 버전 (MIT).
 
 ## LLM 인프라
 
