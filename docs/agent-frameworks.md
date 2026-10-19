@@ -57,6 +57,7 @@ SDKs, frameworks, protocols, observability and eval tools, and memory/RAG infras
 - **[OpenViking](https://github.com/volcengine/OpenViking)** (28k★) — Self-evolving context database unifying agent memory, knowledge RAG, and skills (Volcengine).
 - **[agentmemory](https://github.com/rohitg00/agentmemory)** (27k★) — Persistent memory for AI coding agents, benchmarked on real-world tasks.
 - **[beads](https://github.com/gastownhall/beads)** (26k★) — A memory upgrade for your coding agent.
+- **[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness)** - Developer-alpha Rust knowledge store with encrypted, append-only records, device sync, and scoped, expiring MCP grants (MIT).
 
 ## LLM Infrastructure
 
