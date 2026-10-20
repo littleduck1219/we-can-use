@@ -94,6 +94,7 @@ MCP 서버, 이를 인덱싱하는 디렉토리·레지스트리, 그리고 큐�
 - **[Grafana MCP](https://github.com/grafana/mcp-grafana)** — 공식: 대시보드·데이터소스 조회와 Prometheus/Loki 쿼리.
 - **[Azure MCP](https://github.com/Azure/azure-mcp)** — Microsoft 공식: Azure 리소스 관리와 주요 서비스 운영.
 - **[Vercel MCP](https://vercel.com/docs/mcp/vercel-mcp)** — 공식: Vercel 프로젝트·배포·로그 관리.
+- **[SandBase Harness MCP](https://github.com/sandbaseai/sandbase-harness)** — 영속 세션, 샌드박스 실행, 아티팩트, 감사 로그와 리플레이를 제공하는 로컬 우선·셀프호스팅 에이전트 런타임 브리지. 격리는 선택한 백엔드와 배포 구성에 따라 달라집니다.
 
 ## 기타 주요 서버
 

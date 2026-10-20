@@ -94,6 +94,7 @@ MCP servers, the directories & registries that index them, and curated lists.
 - **[Grafana MCP](https://github.com/grafana/mcp-grafana)** — Official: dashboards, datasources, and Prometheus/Loki queries.
 - **[Azure MCP](https://github.com/Azure/azure-mcp)** — Microsoft official: manage Azure resources and key services.
 - **[Vercel MCP](https://vercel.com/docs/mcp/vercel-mcp)** — Official remote server for Vercel projects, deployments, logs.
+- **[SandBase Harness MCP](https://github.com/sandbaseai/sandbase-harness)** — Local-first, self-hosted agent runtime bridge for durable sessions, sandboxed execution, artifacts, audit, and replay; isolation depends on the selected backend and deployment configuration.
 
 ## Other Notable Servers
 
