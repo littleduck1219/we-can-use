@@ -97,7 +97,7 @@ MCP servers, the directories & registries that index them, and curated lists.
 
 ## Other Notable Servers
 
-- **[DC Hub](https://dchub.cloud/connect?utm_source=we-can-use&utm_medium=listing&utm_campaign=directories)** — Orchestration layer for data center and energy intelligence; start with execute_plan; Data Center Power Index (DCPI) scores grid power across 300+ markets. 96 tools; remote MCP at https://dchub.cloud/mcp.
+- **[DC Hub](https://dchub.cloud/connect?utm_source=we-can-use&utm_medium=listing&utm_campaign=directories)** — Orchestration layer for data center and energy intelligence; start with execute_plan; Data Center Power Index (DCPI) scores grid power across 300+ markets. 97 tools; remote MCP at https://dchub.cloud/mcp.
 - **[Serena](https://github.com/oraios/serena)** — Supercharges coding agents with LSP-based symbol-level code search and editing.
 - **[ElevenLabs MCP](https://github.com/elevenlabs/elevenlabs-mcp)** — Official: text-to-speech, voice cloning, transcription.
 - **[MarkItDown MCP](https://github.com/microsoft/markitdown)** — Microsoft: converts PDFs and Office docs to LLM-friendly Markdown.
