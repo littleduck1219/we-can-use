@@ -67,6 +67,7 @@ MCP servers, the directories & registries that index them, and curated lists.
 - **[shadcn MCP](https://ui.shadcn.com/docs/registry/mcp)** — Official: search and install components from the shadcn/ui registry.
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** — Google official: debug, profile, and automate a running browser.
 - **[Magic MCP (21st.dev)](https://github.com/21st-dev/magic-mcp)** — Generates modern UI components from natural language.
+- **[Kite MCP](https://kite.new/docs/mcp)** — Official hosted server (`https://kite.new/api/mcp`, OAuth): agents draw editable layers in a shared Kite design file and copy frames as HTML, React or Tailwind.
 
 ## Database & Backend
 

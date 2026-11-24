@@ -67,6 +67,7 @@ MCP 서버, 이를 인덱싱하는 디렉토리·레지스트리, 그리고 큐�
 - **[shadcn MCP](https://ui.shadcn.com/docs/registry/mcp)** — 공식: shadcn/ui 레지스트리 컴포넌트 검색·설치.
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** — Google 공식: 실행 중인 브라우저 디버깅·프로파일링·자동화.
 - **[Magic MCP (21st.dev)](https://github.com/21st-dev/magic-mcp)** — 자연어 설명으로 모던 UI 컴포넌트 생성.
+- **[Kite MCP](https://kite.new/docs/mcp)** — 공식 호스팅 서버(`https://kite.new/api/mcp`, OAuth): 에이전트가 팀과 공유하는 Kite 디자인 파일에 편집 가능한 레이어를 그리고, 프레임을 HTML·React·Tailwind로 복사.
 
 ## 데이터베이스 & 백엔드
 
